@@ -3,11 +3,11 @@ package bengal.instances
 import bengal._
 
 trait list {
-  implied [A: Monoid] for Monoid[List[A]] {
+  delegate [A: Monoid] for Monoid[List[A]] {
     def empty = Nil
     def (x: List[A]) combine (y: List[A]) = x.zip(y).map(_ |+| _)
   }
-  implied for TraverseMonad[List] {
+  delegate for TraverseMonad[List] {
     def pure[A](x: A) = List(x)
     def (f: List[A => B]) ap [A, B] (x: List[A]) = (f, x) match {
       case (Nil, _) | (_, Nil) => Nil
@@ -20,7 +20,7 @@ trait list {
     def (x: List[A]) traverse [G[_], A, B] (f: A => G[B]) given (AG: Applicative[G]) =
       x.foldRight(AG.pure(Nil))((x, z) => AG.map2(f(x), z)(_ :: _))
   }
-  implied [A] given (O: Ord[A]) for Ord[List[A]] {
+  delegate [A] for Ord[List[A]] given (O: Ord[A]) {
     def compare(xs: List[A], ys: List[A]) = (xs, ys) match {
       case (Nil, Nil) => 0
       case (Nil, _) => -1

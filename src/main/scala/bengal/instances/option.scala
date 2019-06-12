@@ -3,14 +3,17 @@ package bengal.instances
 import bengal._
 
 trait option {
-  implied [A] given Monoid[A] for Monoid[Option[A]] {
+  delegate [A] for Monoid[Option[A]] given Monoid[A] {
     def empty = None
     def (x: Option[A]) combine (y: Option[A]) = (x, y) match {
       case (Some(x), Some(y)) => Some(x |+| y)
       case _ => None
     }
   }
-  implied for TraverseMonad[Option] {
+  delegate for Functor[Option] {
+    def (x: Option[A]) map [A, B] (f: A => B) = x.map(f)
+  }
+  delegate for TraverseMonad[Option] {
     def pure[A](x: A) = Some(x)
     def (f: Option[A => B]) ap [A, B] (x: Option[A]) = (f, x) match {
       case (Some(f), Some(x)) => Some(f(x))

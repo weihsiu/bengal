@@ -5,14 +5,14 @@ import bengal.data.Maybe
 import bengal.data.Maybe._
 
 trait maybe {
-  implied [A] given Monoid[A] for Monoid[Maybe[A]] {
+  delegate [A] for Monoid[Maybe[A]] given Monoid[A] {
     def empty = Empty
     def (x: Maybe[A]) combine (y: Maybe[A]) = (x, y) match {
       case (Just(x), Just(y)) => Just(x |+| y)
       case _ => Empty
     }
   }
-  implied for TraverseMonad[Maybe] {
+  delegate for TraverseMonad[Maybe] {
     def pure[A](x: A) = Just(x)
     def (f: Maybe[A => B]) ap [A, B] (x: Maybe[A]) = (f, x) match {
       case (Just(f), Just(x)) => Just(f(x))

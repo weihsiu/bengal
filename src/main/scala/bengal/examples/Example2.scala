@@ -1,7 +1,7 @@
 package bengal.examples
 
 import bengal._
-import implied bengal.instances.all._
+import delegate bengal.instances.all._
 
 object Example2 {
   def main(args: Array[String]): Unit = {

@@ -15,11 +15,11 @@ object ProdInt {
 }
 
 trait int {
-  implied for Monoid[SumInt] {
+  delegate for Monoid[SumInt] {
     def empty = SumInt.apply(0)
     def (x: SumInt) combine (y: SumInt) = SumInt(SumInt.value(x) + SumInt.value(y))
   }
-  implied for Monoid[ProdInt] {
+  delegate for Monoid[ProdInt] {
     def empty = ProdInt(1)
     def (x: ProdInt) combine (y: ProdInt) = ProdInt(ProdInt.value(x) * ProdInt.value(y))
   }

@@ -3,7 +3,7 @@ package bengal.instances
 import bengal._
 
 trait function {
-  implied [I] for Monad[[X] => I => X] {
+  delegate [I] for Monad[[X] =>> I => X] {
     def pure[A](x: A) = _ => x
     def (f: I => A => B) ap [A, B] (x: I => A) = y => f(y)(x(y))
     def (x: I => A) map [A, B] (f: A => B) = x andThen f
