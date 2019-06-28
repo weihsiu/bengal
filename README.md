@@ -1,6 +1,7 @@
 # Bengal: Dotty Cats
 
 This projects is just some code I put together to teach myself Scala 3 syntax.  It tries to mimic the functioanlities of functional libraries like cats/scalaz.  It is by no means complete or will it ever be.  Try it at your own peril.
+
 * under the "instances" package, type classes are implemented in the Scala 2 style
 * under the "delegates" package, type classes are implemented using local coherence (much better)
 
