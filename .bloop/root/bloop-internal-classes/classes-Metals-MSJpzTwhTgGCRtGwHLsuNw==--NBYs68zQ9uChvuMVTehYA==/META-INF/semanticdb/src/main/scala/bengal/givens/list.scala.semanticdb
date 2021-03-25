@@ -1,345 +1,0 @@
-
-ž–'src/main/scala/bengal/givens/list.scala*,
-bengal/givens/list$package. *givens€*G
--bengal/givens/list$package.given_Monoid_List#*given_Monoid_List€*J
-8bengal/givens/list$package.given_Monoid_List#`<init>`(). €@*<init>€*:
-0bengal/givens/list$package.given_Monoid_List#[A]	*A€*D
-3bengal/givens/list$package.given_Monoid_List#empty. €*empty€*G
-7bengal/givens/list$package.given_Monoid_List#combine().*combine€*D
-:bengal/givens/list$package.given_Monoid_List#combine().(x)*x€*D
-:bengal/givens/list$package.given_Monoid_List#combine().(y)*y€*K
-/bengal/givens/list$package.given_Monoid_List(). (*given_Monoid_List€*<
-2bengal/givens/list$package.given_Monoid_List().[A]	*A€*K
-.bengal/givens/list$package.given_Functor_List.
- (*given_Functor_List€*@
-4bengal/givens/list$package.given_Functor_List.map().*map€*A
-7bengal/givens/list$package.given_Functor_List.map().[A]	*A€*A
-7bengal/givens/list$package.given_Functor_List.map().(x)*x€*A
-7bengal/givens/list$package.given_Functor_List.map().[B]	*B€*A
-7bengal/givens/list$package.given_Functor_List.map().(f)*f€*Q
-2bengal/givens/list$package.given_Applicative_List#*given_Applicative_List€*O
-=bengal/givens/list$package.given_Applicative_List#`<init>`(). €@*<init>€*M
-@bengal/givens/list$package.given_Applicative_List#`<init>`().(F)  *F€*A
-4bengal/givens/list$package.given_Applicative_List#F.  *F€*F
-8bengal/givens/list$package.given_Applicative_List#map(). *map€*E
-;bengal/givens/list$package.given_Applicative_List#map().[A]	*A€*E
-;bengal/givens/list$package.given_Applicative_List#map().(x)*x€*E
-;bengal/givens/list$package.given_Applicative_List#map().[B]	*B€*E
-;bengal/givens/list$package.given_Applicative_List#map().(f)*f€*F
-9bengal/givens/list$package.given_Applicative_List#pure().*pure€*F
-<bengal/givens/list$package.given_Applicative_List#pure().[A]	*A€*F
-<bengal/givens/list$package.given_Applicative_List#pure().(x)*x€*B
-7bengal/givens/list$package.given_Applicative_List#ap().*ap€*D
-:bengal/givens/list$package.given_Applicative_List#ap().[A]	*A€*D
-:bengal/givens/list$package.given_Applicative_List#ap().[B]	*B€*D
-:bengal/givens/list$package.given_Applicative_List#ap().(f)*f€*D
-:bengal/givens/list$package.given_Applicative_List#ap().(x)*x€*
-local0 €*f€*
-local1 €*xs€*U
-4bengal/givens/list$package.given_Applicative_List(). (*given_Applicative_List€*C
-7bengal/givens/list$package.given_Applicative_List().(F)  *F€*E
-,bengal/givens/list$package.given_Monad_List#*given_Monad_List€*I
-7bengal/givens/list$package.given_Monad_List#`<init>`(). €@*<init>€*G
-:bengal/givens/list$package.given_Monad_List#`<init>`().(A)  *A€*;
-.bengal/givens/list$package.given_Monad_List#A.  *A€*>
-1bengal/givens/list$package.given_Monad_List#ap(). *ap€*>
-4bengal/givens/list$package.given_Monad_List#ap().[A]	*A€*>
-4bengal/givens/list$package.given_Monad_List#ap().[B]	*B€*>
-4bengal/givens/list$package.given_Monad_List#ap().(f)*f€*>
-4bengal/givens/list$package.given_Monad_List#ap().(x)*x€*@
-2bengal/givens/list$package.given_Monad_List#map(). *map€*?
-5bengal/givens/list$package.given_Monad_List#map().[A]	*A€*?
-5bengal/givens/list$package.given_Monad_List#map().(x)*x€*?
-5bengal/givens/list$package.given_Monad_List#map().[B]	*B€*?
-5bengal/givens/list$package.given_Monad_List#map().(f)*f€*B
-3bengal/givens/list$package.given_Monad_List#pure(). *pure€*@
-6bengal/givens/list$package.given_Monad_List#pure().[A]	*A€*@
-6bengal/givens/list$package.given_Monad_List#pure().(x)*x€*F
-6bengal/givens/list$package.given_Monad_List#flatMap().*flatMap€*C
-9bengal/givens/list$package.given_Monad_List#flatMap().[A]	*A€*C
-9bengal/givens/list$package.given_Monad_List#flatMap().(x)*x€*C
-9bengal/givens/list$package.given_Monad_List#flatMap().[B]	*B€*C
-9bengal/givens/list$package.given_Monad_List#flatMap().(f)*f€*I
-.bengal/givens/list$package.given_Monad_List(). (*given_Monad_List€*=
-1bengal/givens/list$package.given_Monad_List().(A)  *A€*M
-/bengal/givens/list$package.given_Foldable_List.
- (*given_Foldable_List€*E
-7bengal/givens/list$package.given_Foldable_List.foldL().*foldL€*D
-:bengal/givens/list$package.given_Foldable_List.foldL().[A]	*A€*D
-:bengal/givens/list$package.given_Foldable_List.foldL().(x)*x€*D
-:bengal/givens/list$package.given_Foldable_List.foldL().[B]	*B€*D
-:bengal/givens/list$package.given_Foldable_List.foldL().(z)*z€*D
-:bengal/givens/list$package.given_Foldable_List.foldL().(f)*f€*E
-7bengal/givens/list$package.given_Foldable_List.foldR().*foldR€*D
-:bengal/givens/list$package.given_Foldable_List.foldR().[A]	*A€*D
-:bengal/givens/list$package.given_Foldable_List.foldR().(x)*x€*D
-:bengal/givens/list$package.given_Foldable_List.foldR().[B]	*B€*D
-:bengal/givens/list$package.given_Foldable_List.foldR().(z)*z€*D
-:bengal/givens/list$package.given_Foldable_List.foldR().(f)*f€*K
-/bengal/givens/list$package.given_Traverse_List#*given_Traverse_List€*L
-:bengal/givens/list$package.given_Traverse_List#`<init>`(). €@*<init>€*L
->bengal/givens/list$package.given_Traverse_List#`<init>`().(FO)  *FO€*L
->bengal/givens/list$package.given_Traverse_List#`<init>`().(FU)  *FU€*@
-2bengal/givens/list$package.given_Traverse_List#FO.  *FO€*@
-2bengal/givens/list$package.given_Traverse_List#FU.  *FU€*G
-7bengal/givens/list$package.given_Traverse_List#foldL(). *foldL€*D
-:bengal/givens/list$package.given_Traverse_List#foldL().[A]	*A€*D
-:bengal/givens/list$package.given_Traverse_List#foldL().(x)*x€*D
-:bengal/givens/list$package.given_Traverse_List#foldL().[B]	*B€*D
-:bengal/givens/list$package.given_Traverse_List#foldL().(z)*z€*D
-:bengal/givens/list$package.given_Traverse_List#foldL().(f)*f€*G
-7bengal/givens/list$package.given_Traverse_List#foldR(). *foldR€*D
-:bengal/givens/list$package.given_Traverse_List#foldR().[A]	*A€*D
-:bengal/givens/list$package.given_Traverse_List#foldR().(x)*x€*D
-:bengal/givens/list$package.given_Traverse_List#foldR().[B]	*B€*D
-:bengal/givens/list$package.given_Traverse_List#foldR().(z)*z€*D
-:bengal/givens/list$package.given_Traverse_List#foldR().(f)*f€*C
-5bengal/givens/list$package.given_Traverse_List#map(). *map€*B
-8bengal/givens/list$package.given_Traverse_List#map().[A]	*A€*B
-8bengal/givens/list$package.given_Traverse_List#map().(x)*x€*B
-8bengal/givens/list$package.given_Traverse_List#map().[B]	*B€*B
-8bengal/givens/list$package.given_Traverse_List#map().(f)*f€*K
-:bengal/givens/list$package.given_Traverse_List#traverse().*traverse€*G
-=bengal/givens/list$package.given_Traverse_List#traverse().[A]	*A€*G
-=bengal/givens/list$package.given_Traverse_List#traverse().(x)*x€*G
-=bengal/givens/list$package.given_Traverse_List#traverse().[G]	*G€*G
-=bengal/givens/list$package.given_Traverse_List#traverse().[B]	*B€*G
-=bengal/givens/list$package.given_Traverse_List#traverse().(f)*f€*K
->bengal/givens/list$package.given_Traverse_List#traverse().(AP)  *AP€*
-local2*x€*
-local3*z€*O
-1bengal/givens/list$package.given_Traverse_List(). (*given_Traverse_List€*B
-5bengal/givens/list$package.given_Traverse_List().(FO)  *FO€*B
-5bengal/givens/list$package.given_Traverse_List().(FU)  *FU€2
- bengal/givens/2
- bengal/2
- bengal/2%
-bengal/givens/list$package.2F
- 8bengal/givens/list$package.given_Monoid_List#`<init>`().2
- bengal/Monoid#2!
- scala/package.List#2>
- 0bengal/givens/list$package.given_Monoid_List#[A]2>
- 0bengal/givens/list$package.given_Monoid_List#[A]2A
- 3bengal/givens/list$package.given_Monoid_List#empty.2 
- scala/package.Nil.2E
- 7bengal/givens/list$package.given_Monoid_List#combine().2H
- :bengal/givens/list$package.given_Monoid_List#combine().(x)2!
- scala/package.List#2>
- 0bengal/givens/list$package.given_Monoid_List#[A]2H
- :bengal/givens/list$package.given_Monoid_List#combine().(y)2!
- scala/package.List#2>
- 0bengal/givens/list$package.given_Monoid_List#[A]22
-! #$scala/collection/IterableOps#`++`().2H
-  :bengal/givens/list$package.given_Monoid_List#combine().(x)2H
-$ %:bengal/givens/list$package.given_Monoid_List#combine().(y)2<
-		 .bengal/givens/list$package.given_Functor_List.2
-		 bengal/Functor#2!
-		 scala/package.List#2B
- 4bengal/givens/list$package.given_Functor_List.map().2E
-
-
- 7bengal/givens/list$package.given_Functor_List.map().[A]2E
-
-
- 7bengal/givens/list$package.given_Functor_List.map().(x)2!
-
-
- scala/package.List#2E
-
-
- 7bengal/givens/list$package.given_Functor_List.map().[A]2E
- 7bengal/givens/list$package.given_Functor_List.map().[B]2E
- 7bengal/givens/list$package.given_Functor_List.map().(f)2E
- 7bengal/givens/list$package.given_Functor_List.map().[A]2E
- 7bengal/givens/list$package.given_Functor_List.map().[B]24
- !&scala/collection/immutable/List#map().2E
- 7bengal/givens/list$package.given_Functor_List.map().(x)2E
-" #7bengal/givens/list$package.given_Functor_List.map().(f)2K
- =bengal/givens/list$package.given_Applicative_List#`<init>`().2
- bengal/Functor#2!
- scala/package.List#2!
-  +bengal/Applicative#2!
-, 0scala/package.List#2B
- 4bengal/givens/list$package.given_Applicative_List#F.2B
-	 
-4bengal/givens/list$package.given_Applicative_List#F.2F
- 8bengal/givens/list$package.given_Applicative_List#map().2#
-
- 
-bengal/Functor#map().2I
-
- 
-;bengal/givens/list$package.given_Applicative_List#map().(x)2I
-
- 
-;bengal/givens/list$package.given_Applicative_List#map().(f)2G
- 
-9bengal/givens/list$package.given_Applicative_List#pure().2J
- <bengal/givens/list$package.given_Applicative_List#pure().[A]2J
- <bengal/givens/list$package.given_Applicative_List#pure().(x)2J
- <bengal/givens/list$package.given_Applicative_List#pure().[A]27
- )scala/collection/IterableFactory#apply().2!
- scala/package.List.2J
- <bengal/givens/list$package.given_Applicative_List#pure().(x)2E
- 
-7bengal/givens/list$package.given_Applicative_List#ap().2H
- :bengal/givens/list$package.given_Applicative_List#ap().[A]2H
- :bengal/givens/list$package.given_Applicative_List#ap().[B]2H
- :bengal/givens/list$package.given_Applicative_List#ap().(f)2!
- scala/package.List#2H
- :bengal/givens/list$package.given_Applicative_List#ap().[A]2H
-  !:bengal/givens/list$package.given_Applicative_List#ap().[B]2H
- :bengal/givens/list$package.given_Applicative_List#ap().(x)2!
- scala/package.List#2H
- :bengal/givens/list$package.given_Applicative_List#ap().[A]2#
- scala/Tuple2.apply().2H
- :bengal/givens/list$package.given_Applicative_List#ap().(f)2H
- :bengal/givens/list$package.given_Applicative_List#ap().(x)2%
- scala/Tuple2.unapply().2 
- scala/package.Nil.2%
- scala/Tuple2.unapply().2 
- scala/package.Nil.2 
-" %scala/package.Nil.2%
- scala/Tuple2.unapply().28
- *scala/collection/immutable/`::`.unapply().2!
- scala/package.`::`.2
- local02
- local124
- !&scala/collection/immutable/List#map().2
- local12
-" #local02E
- 7bengal/givens/list$package.given_Monad_List#`<init>`().2!
- bengal/Applicative#2!
-  scala/package.List#2
-$ )bengal/Monad#2!
-* .scala/package.List#2<
- .bengal/givens/list$package.given_Monad_List#A.2<
-	 
-.bengal/givens/list$package.given_Monad_List#A.2?
- 1bengal/givens/list$package.given_Monad_List#ap().2&
-
- 
-bengal/Applicative#ap().2B
-
- 
-4bengal/givens/list$package.given_Monad_List#ap().(f)2B
-
- 
-4bengal/givens/list$package.given_Monad_List#ap().(x)2@
- 2bengal/givens/list$package.given_Monad_List#map().2#
-
- 
-bengal/Functor#map().2C
-
- 
-5bengal/givens/list$package.given_Monad_List#map().(x)2C
-
- 
-5bengal/givens/list$package.given_Monad_List#map().(f)2A
- 3bengal/givens/list$package.given_Monad_List#pure().2(
-
- 
-bengal/Applicative#pure().2D
-
- 
-6bengal/givens/list$package.given_Monad_List#pure().(x)2D
- 6bengal/givens/list$package.given_Monad_List#flatMap().2G
- 9bengal/givens/list$package.given_Monad_List#flatMap().[A]2G
- 9bengal/givens/list$package.given_Monad_List#flatMap().(x)2!
- scala/package.List#2G
- 9bengal/givens/list$package.given_Monad_List#flatMap().[A]2G
- 9bengal/givens/list$package.given_Monad_List#flatMap().[B]2G
- 9bengal/givens/list$package.given_Monad_List#flatMap().(f)2G
- 9bengal/givens/list$package.given_Monad_List#flatMap().[A]2!
- scala/package.List#2G
-  !9bengal/givens/list$package.given_Monad_List#flatMap().[B]28
-( /*scala/collection/immutable/List#flatMap().2G
-& '9bengal/givens/list$package.given_Monad_List#flatMap().(x)2G
-0 19bengal/givens/list$package.given_Monad_List#flatMap().(f)2=
- /bengal/givens/list$package.given_Foldable_List.2
- bengal/Foldable#2!
- scala/package.List#2E
- 7bengal/givens/list$package.given_Foldable_List.foldL().2H
- :bengal/givens/list$package.given_Foldable_List.foldL().[A]2H
- :bengal/givens/list$package.given_Foldable_List.foldL().(x)2!
- scala/package.List#2H
- :bengal/givens/list$package.given_Foldable_List.foldL().[A]2H
- :bengal/givens/list$package.given_Foldable_List.foldL().[B]2H
- :bengal/givens/list$package.given_Foldable_List.foldL().(z)2H
- :bengal/givens/list$package.given_Foldable_List.foldL().[B]2H
- :bengal/givens/list$package.given_Foldable_List.foldL().(f)2H
- :bengal/givens/list$package.given_Foldable_List.foldL().[B]2H
- :bengal/givens/list$package.given_Foldable_List.foldL().[A]2H
-$ %:bengal/givens/list$package.given_Foldable_List.foldL().[B]27
-+ 3)scala/collection/LinearSeqOps#foldLeft().2H
-) *:bengal/givens/list$package.given_Foldable_List.foldL().(x)2H
-4 5:bengal/givens/list$package.given_Foldable_List.foldL().(z)2H
-7 8:bengal/givens/list$package.given_Foldable_List.foldL().(f)2E
- 7bengal/givens/list$package.given_Foldable_List.foldR().2H
- :bengal/givens/list$package.given_Foldable_List.foldR().[A]2H
- :bengal/givens/list$package.given_Foldable_List.foldR().(x)2H
- :bengal/givens/list$package.given_Foldable_List.foldR().[A]2H
- :bengal/givens/list$package.given_Foldable_List.foldR().[B]2H
- :bengal/givens/list$package.given_Foldable_List.foldR().(z)2H
- :bengal/givens/list$package.given_Foldable_List.foldR().[B]2H
- :bengal/givens/list$package.given_Foldable_List.foldR().(f)2H
- :bengal/givens/list$package.given_Foldable_List.foldR().[A]2H
- :bengal/givens/list$package.given_Foldable_List.foldR().[B]2H
-$ %:bengal/givens/list$package.given_Foldable_List.foldR().[B]2:
-+ 4,scala/collection/immutable/List#foldRight().2H
-) *:bengal/givens/list$package.given_Foldable_List.foldR().(x)2H
-5 6:bengal/givens/list$package.given_Foldable_List.foldR().(z)2H
-8 9:bengal/givens/list$package.given_Foldable_List.foldR().(f)2H
- :bengal/givens/list$package.given_Traverse_List#`<init>`().2
- bengal/Foldable#2!
- scala/package.List#2
-% ,bengal/Functor#2!
-- 1scala/package.List#2
-5 =bengal/Traverse#2!
-> Bscala/package.List#2@
- 2bengal/givens/list$package.given_Traverse_List#FO.2@
-! #2bengal/givens/list$package.given_Traverse_List#FU.2@
- 	  2bengal/givens/list$package.given_Traverse_List#FO.2E
-   7bengal/givens/list$package.given_Traverse_List#foldL().2&
-   bengal/Foldable#foldL().2H
-   :bengal/givens/list$package.given_Traverse_List#foldL().(x)2H
-   :bengal/givens/list$package.given_Traverse_List#foldL().(z)2H
-   :bengal/givens/list$package.given_Traverse_List#foldL().(f)2E
-   7bengal/givens/list$package.given_Traverse_List#foldR().2&
-   bengal/Foldable#foldR().2H
-   :bengal/givens/list$package.given_Traverse_List#foldR().(x)2H
-   :bengal/givens/list$package.given_Traverse_List#foldR().(z)2H
-   :bengal/givens/list$package.given_Traverse_List#foldR().(f)2@
-   2bengal/givens/list$package.given_Traverse_List#FU.2C
-   5bengal/givens/list$package.given_Traverse_List#map().2#
-   bengal/Functor#map().2F
-   8bengal/givens/list$package.given_Traverse_List#map().(x)2F
-   8bengal/givens/list$package.given_Traverse_List#map().(f)2H
-"" :bengal/givens/list$package.given_Traverse_List#traverse().2K
-!! =bengal/givens/list$package.given_Traverse_List#traverse().[A]2K
-!! =bengal/givens/list$package.given_Traverse_List#traverse().(x)2!
-!! scala/package.List#2K
-!! =bengal/givens/list$package.given_Traverse_List#traverse().[A]2K
-"" =bengal/givens/list$package.given_Traverse_List#traverse().[G]2K
-"" =bengal/givens/list$package.given_Traverse_List#traverse().[B]2K
-"" =bengal/givens/list$package.given_Traverse_List#traverse().(f)2K
-"" =bengal/givens/list$package.given_Traverse_List#traverse().[A]2K
-""" #=bengal/givens/list$package.given_Traverse_List#traverse().[G]2K
-"$" %=bengal/givens/list$package.given_Traverse_List#traverse().[B]2L
-"." 0>bengal/givens/list$package.given_Traverse_List#traverse().(AP)2!
-"2" =bengal/Applicative#2K
-">" ?=bengal/givens/list$package.given_Traverse_List#traverse().[G]2:
-## ,scala/collection/immutable/List#foldRight().2K
-## =bengal/givens/list$package.given_Traverse_List#traverse().(x)2(
-## bengal/Applicative#pure().2L
-## >bengal/givens/list$package.given_Traverse_List#traverse().(AP)2 
-## scala/package.Nil.2
-#!# "local22
-#$# %local32(
-#-# 1bengal/Applicative#map2().2L
-#*# ,>bengal/givens/list$package.given_Traverse_List#traverse().(AP)2&
-#3# 3scala/Function1#apply().2K
-#2# 3=bengal/givens/list$package.given_Traverse_List#traverse().(f)2
-#4# 5local22
-#8# 9local325
-#A# A'scala/collection/immutable/List#`::`().PZ 3A01BB628C227AC533FCC94D1C88FE7A
