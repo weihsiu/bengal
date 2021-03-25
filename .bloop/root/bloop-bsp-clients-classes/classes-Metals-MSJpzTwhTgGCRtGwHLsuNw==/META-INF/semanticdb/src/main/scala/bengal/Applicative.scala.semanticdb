@@ -1,173 +1,0 @@
-
-ð)'src/main/scala/bengal/Applicative.scala*'
-bengal/Applicative#*Applicative€*0
-bengal/Applicative#`<init>`(). €@*<init>€* 
-bengal/Applicative#[F]	*F€*)
-bengal/Applicative#pure(). *pure€*'
-bengal/Applicative#pure().[A]	*A€*'
-bengal/Applicative#pure().(x)*x€*%
-bengal/Applicative#ap(). *ap€*%
-bengal/Applicative#ap().[A]	*A€*%
-bengal/Applicative#ap().[B]	*B€*%
-bengal/Applicative#ap().(f)*f€*%
-bengal/Applicative#ap().(x)*x€*'
-bengal/Applicative#`<*>`().*<*>€*(
-bengal/Applicative#`<*>`().[A]	*A€*(
-bengal/Applicative#`<*>`().[B]	*B€*(
-bengal/Applicative#`<*>`().(f)*f€*(
-bengal/Applicative#`<*>`().(x)*x€*%
-bengal/Applicative#ap2().*ap2€*&
-bengal/Applicative#ap2().[A]	*A€*&
-bengal/Applicative#ap2().[B]	*B€*&
-bengal/Applicative#ap2().[C]	*C€*&
-bengal/Applicative#ap2().(x)*x€*&
-bengal/Applicative#ap2().(y)*y€*&
-bengal/Applicative#ap2().(f)*f€*
-local0*f2€*
-local1*a€*
-local2*b€*'
-bengal/Applicative#map2().*map2€*'
-bengal/Applicative#map2().[A]	*A€*'
-bengal/Applicative#map2().[B]	*B€*'
-bengal/Applicative#map2().[C]	*C€*'
-bengal/Applicative#map2().(x)*x€*'
-bengal/Applicative#map2().(y)*y€*'
-bengal/Applicative#map2().(f)*f€*
-local3*a€*
-local4*b€*)
-bengal/Applicative.
- *Applicative€2
- bengal/2!
- bengal/Applicative#2,
- bengal/Applicative#`<init>`().2
-  'bengal/Functor#2$
-( )bengal/Applicative#[F]2$
- bengal/Applicative#[F]2(
- 
-bengal/Applicative#pure().2+
- bengal/Applicative#pure().[A]2+
- bengal/Applicative#pure().(x)2+
- bengal/Applicative#pure().[A]2$
- bengal/Applicative#[F]2+
- bengal/Applicative#pure().[A]2&
- 
-bengal/Applicative#ap().2)
- bengal/Applicative#ap().[A]2)
- bengal/Applicative#ap().[B]2)
- bengal/Applicative#ap().(f)2$
- bengal/Applicative#[F]2)
- bengal/Applicative#ap().[A]2)
- bengal/Applicative#ap().[B]2)
- bengal/Applicative#ap().(x)2$
- bengal/Applicative#[F]2)
- bengal/Applicative#ap().[A]2$
- bengal/Applicative#[F]2)
- bengal/Applicative#ap().[B]2)
- bengal/Applicative#`<*>`().2,
- bengal/Applicative#`<*>`().[A]2,
- bengal/Applicative#`<*>`().[B]2,
- bengal/Applicative#`<*>`().(f)2,
- bengal/Applicative#`<*>`().[A]2,
- bengal/Applicative#`<*>`().[B]2,
- bengal/Applicative#`<*>`().(x)2$
- bengal/Applicative#[F]2,
- bengal/Applicative#`<*>`().[A]2$
- bengal/Applicative#[F]2,
- bengal/Applicative#`<*>`().[B]2&
- bengal/Applicative#ap().2,
- bengal/Applicative#`<*>`().(f)2,
-" #bengal/Applicative#`<*>`().(x)2'
- 	bengal/Applicative#ap2().2*
-
- bengal/Applicative#ap2().[A]2*
- bengal/Applicative#ap2().[B]2*
- bengal/Applicative#ap2().[C]2*
- bengal/Applicative#ap2().(x)2$
- bengal/Applicative#[F]2*
- bengal/Applicative#ap2().[A]2*
- bengal/Applicative#ap2().(y)2$
-  bengal/Applicative#[F]2*
-! "bengal/Applicative#ap2().[B]2*
-% &bengal/Applicative#ap2().(f)2$
-( )bengal/Applicative#[F]2*
-+ ,bengal/Applicative#ap2().[A]2*
-. /bengal/Applicative#ap2().[B]2*
-4 5bengal/Applicative#ap2().[C]2$
-9 :bengal/Applicative#[F]2*
-; <bengal/Applicative#ap2().[C]2)
-		 bengal/Applicative#`<*>`().2#
-		 bengal/Functor#map().2*
-		 bengal/Applicative#ap2().(f)2
-		 local02
-		 local12*
-		 bengal/Applicative#ap2().[A]2
-		 local22*
-	 	 !bengal/Applicative#ap2().[B]2&
-	(	 (scala/Function2#apply().2
-	&	 (local02
-	)	 *local12
-	,	 -local22*
-	5	 6bengal/Applicative#ap2().(x)2*
-	;	 <bengal/Applicative#ap2().(y)2(
-
-
- 
-bengal/Applicative#map2().2+
-
-
- bengal/Applicative#map2().[A]2+
-
-
- bengal/Applicative#map2().[B]2+
-
-
- bengal/Applicative#map2().[C]2+
-
-
- bengal/Applicative#map2().(x)2$
-
-
- bengal/Applicative#[F]2+
-
-
- bengal/Applicative#map2().[A]2+
-
-
- bengal/Applicative#map2().(y)2$
-
- 
- !bengal/Applicative#[F]2+
-
-"
- #bengal/Applicative#map2().[B]2+
-
-&
- 'bengal/Applicative#map2().(f)2+
-
-*
- +bengal/Applicative#map2().[A]2+
-
--
- .bengal/Applicative#map2().[B]2+
-
-3
- 4bengal/Applicative#map2().[C]2$
-
-7
- 8bengal/Applicative#[F]2+
-
-9
- :bengal/Applicative#map2().[C]2)
- bengal/Applicative#`<*>`().2#
- bengal/Functor#map().2+
- bengal/Applicative#map2().(x)2
- local32
- local42+
- bengal/Applicative#map2().[B]2&
- scala/Function2#apply().2+
- bengal/Applicative#map2().(f)2
- local32
-  !local42+
-) *bengal/Applicative#map2().(y)2!
- bengal/Applicative.2
- "bengal/TCApply#PZ 4409B9A88C625BD7871B9D230FD52ED0

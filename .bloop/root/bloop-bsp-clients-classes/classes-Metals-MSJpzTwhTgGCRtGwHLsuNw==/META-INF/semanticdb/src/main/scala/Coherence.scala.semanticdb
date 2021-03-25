@@ -1,58 +1,0 @@
-
-«src/main/scala/Coherence.scala* 
-_empty_/Functor#*Functor€*-
-_empty_/Functor#`<init>`(). €@*<init>€*
-_empty_/Functor#[F]	*F€*
-_empty_/Monad#*Monad€*+
-_empty_/Monad#`<init>`(). €@*<init>€*
-_empty_/Monad#[F]	*F€*"
-_empty_/Traverse#*Traverse€*.
-_empty_/Traverse#`<init>`(). €@*<init>€*
-_empty_/Traverse#[F]	*F€*,
-_empty_/Coherence$package. *_empty_€*<
-(_empty_/Coherence$package.needFunctor().*needFunctor€*5
-+_empty_/Coherence$package.needFunctor().[F]	*F€*;
--_empty_/Coherence$package.needFunctor().(x$1)  *x$1€*0
-"_empty_/Coherence$package.tAndM().*tAndM€*/
-%_empty_/Coherence$package.tAndM().[F]	*F€*5
-'_empty_/Coherence$package.tAndM().(x$1)  *x$1€*5
-'_empty_/Coherence$package.tAndM().(x$2)  *x$2€*!
-local0 è*given_Functor_F€2
- _empty_/Functor#2)
- _empty_/Functor#`<init>`().2!
- _empty_/Functor#[F]2
- _empty_/Monad#2'
- _empty_/Monad#`<init>`().2
- !_empty_/Functor#2
-" #_empty_/Monad#[F]2
- _empty_/Monad#[F]2
- _empty_/Traverse#2*
- _empty_/Traverse#`<init>`().2
- $_empty_/Functor#2"
-% &_empty_/Traverse#[F]2"
- _empty_/Traverse#[F]2$
-_empty_/Coherence$package.26
- (_empty_/Coherence$package.needFunctor().29
- +_empty_/Coherence$package.needFunctor().[F]2
-) -scala/Unit#2#
-0 3scala/Predef.`???`().20
- 	"_empty_/Coherence$package.tAndM().23
-
- %_empty_/Coherence$package.tAndM().[F]2
-. 2scala/Unit#2
-		 local02
-		 _empty_/Functor#23
-		 %_empty_/Coherence$package.tAndM().[F]2$
-		 scala/Predef.summon().2
-		 !_empty_/Monad#23
-	"	 #%_empty_/Coherence$package.tAndM().[F]25
-	%	 %'_empty_/Coherence$package.tAndM().(x$1)26
-
-
- (_empty_/Coherence$package.needFunctor().23
-
-
- %_empty_/Coherence$package.tAndM().[F]2
-
-
- local0PZ B3426F2D6AEAFEF5DCA6A34093E24CC2

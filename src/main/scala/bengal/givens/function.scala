@@ -2,7 +2,7 @@ package bengal.givens
 
 import bengal.*
 
-given [I]: Monad[[X] =>> I => X] with
+given function1Monad[I]: Monad[[X] =>> I => X] with
   def pure[A](x: A) = _ => x
   extension [A, B](f: I => A => B)
     def ap(x: I => A) = y => f(y)(x(y))

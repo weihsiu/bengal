@@ -1,56 +1,0 @@
-
-à
--src/main/scala/bengal/examples/Example2.scala*,
-bengal/examples/Example2.
- *Example2€*-
- bengal/examples/Example2.main().*main€*3
-&bengal/examples/Example2.main().(args)*args€*
-local0*max€*
-local1	*T€*
-local2*x€*
-local3*y€*
-local4  *ord€2
- bengal/examples/2
- bengal/2
- bengal/2
- bengal/givens/2
- bengal/2'
- bengal/examples/Example2.2.
- 
- bengal/examples/Example2.main().24
- &bengal/examples/Example2.main().(args)2
- scala/Array#2"
- scala/Predef.String#2
-! %scala/Unit#2
- local02
- local12
- local22
- local12
- local32
- local12
-! $local42
-& )bengal/Ord#2
-* +local12
-/ 0local12 
-		 scala/Int#`<`(+3).2#
-		 bengal/Ord#compare().2
-	
-	 local42
-		 local22
-		 local32
-	!	 "local32
-	(	 )local22
-
-
- local029
-
-
- +bengal/givens/numeric$package.NumericOrd().2/
-
-
- !scala/math/Numeric.IntIsIntegral.2
- local029
- +bengal/givens/numeric$package.NumericOrd().2
- "
-scala/Int#2/
-# #!scala/math/Numeric.IntIsIntegral.PZ 834BD9198487B035066007B83C14BE55

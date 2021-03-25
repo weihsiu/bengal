@@ -1,29 +1,0 @@
-
-õ#src/main/scala/bengal/Functor.scala*
-bengal/Functor#*Functor€*,
-bengal/Functor#`<init>`(). €@*<init>€*
-bengal/Functor#[F]	*F€*#
-bengal/Functor#map(). *map€*"
-bengal/Functor#map().[A]	*A€*"
-bengal/Functor#map().(x)*x€*"
-bengal/Functor#map().[B]	*B€*"
-bengal/Functor#map().(f)*f€*!
-bengal/Functor.
- *Functor€2
- bengal/2
- bengal/Functor#2(
- bengal/Functor#`<init>`().2 
- bengal/Functor#[F]2#
- bengal/Functor#map().2&
- bengal/Functor#map().[A]2&
- bengal/Functor#map().(x)2 
- bengal/Functor#[F]2&
- bengal/Functor#map().[A]2&
- bengal/Functor#map().[B]2&
- bengal/Functor#map().(f)2&
- bengal/Functor#map().[A]2&
- bengal/Functor#map().[B]2 
- bengal/Functor#[F]2&
- bengal/Functor#map().[B]2
- bengal/Functor.2
- bengal/TCApply#PZ 796CA631597C045EC5CE450BCC5426D1

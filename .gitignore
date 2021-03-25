@@ -1,3 +1,5 @@
-.dotty-ide-artifact
-.dotty-ide.json
-target
+.bloop/
+.bsp/
+.metals/
+.vscode/
+target/

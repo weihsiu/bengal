@@ -1,47 +1,0 @@
-
-¨&src/main/scala/bengal/data/Maybe.scala*$
-bengal/data/Maybe# ”€*Maybe€*/
-bengal/data/Maybe#`<init>`(). €@*<init>€*"
-bengal/data/Maybe#[A]	 €*A€*"
-bengal/data/Maybe.
- *Maybe€*(
-bengal/data/Maybe.Just# ˆ*Just€*4
-"bengal/data/Maybe.Just#`<init>`(). €@*<init>€*2
-%bengal/data/Maybe.Just#`<init>`().(x) €*x€*'
-bengal/data/Maybe.Just#[A]	 €*A€*&
-bengal/data/Maybe.Just#x. €*x€*+
-bengal/data/Maybe.Just#copy().*copy€*+
-!bengal/data/Maybe.Just#copy().[A]	*A€*+
-!bengal/data/Maybe.Just#copy().(x)*x€*?
-(bengal/data/Maybe.Just#copy$default$1().*copy$default$1€*5
-+bengal/data/Maybe.Just#copy$default$1().[A]	*A€*1
-!bengal/data/Maybe.Just#ordinal().*ordinal€*'
-bengal/data/Maybe.Just#_1().*_1€*&
-bengal/data/Maybe.Just.
- *Just€*-
-bengal/data/Maybe.Just.apply().*apply€*,
-"bengal/data/Maybe.Just.apply().[A]	*A€*,
-"bengal/data/Maybe.Just.apply().(x)*x€*1
-!bengal/data/Maybe.Just.unapply().*unapply€*.
-$bengal/data/Maybe.Just.unapply().[A]	*A€*2
-&bengal/data/Maybe.Just.unapply().(x$1)*x$1€*3
-"bengal/data/Maybe.Just.toString().*toString€**
-bengal/data/Maybe.Empty. €©*Empty€*4
- bengal/data/Maybe.fromOrdinal().*fromOrdinal€*9
-)bengal/data/Maybe.fromOrdinal().(ordinal)*ordinal€2
- bengal/data/2
- bengal/2
- bengal/2 
- 
-bengal/data/Maybe#2+
-
- 
-bengal/data/Maybe#`<init>`().2#
- bengal/data/Maybe#[A]2%
- bengal/data/Maybe.Just#20
- "bengal/data/Maybe.Just#`<init>`().2(
- bengal/data/Maybe.Just#[A]2'
- bengal/data/Maybe.Just#x.2&
- bengal/data/Maybe.Empty.2+
- bengal/data/Maybe#`<init>`().2&
- scala/runtime/EnumValue#PZ 9D283EEACDF18E0E164070DD23347416

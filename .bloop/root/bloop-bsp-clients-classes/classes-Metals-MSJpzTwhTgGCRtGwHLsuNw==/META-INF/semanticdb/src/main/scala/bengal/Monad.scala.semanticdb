@@ -1,70 +1,0 @@
-
-Ä!src/main/scala/bengal/Monad.scala*
-bengal/Monad#*Monad€**
-bengal/Monad#`<init>`(). €@*<init>€*
-bengal/Monad#[F]	*F€*)
-bengal/Monad#flatMap(). *flatMap€*$
-bengal/Monad#flatMap().[A]	*A€*$
-bengal/Monad#flatMap().(x)*x€*$
-bengal/Monad#flatMap().[B]	*B€*$
-bengal/Monad#flatMap().(f)*f€*!
-bengal/Monad#`>>=`().*>>=€*"
-bengal/Monad#`>>=`().[A]	*A€*"
-bengal/Monad#`>>=`().(x)*x€*"
-bengal/Monad#`>>=`().[B]	*B€*"
-bengal/Monad#`>>=`().(f)*f€*
-bengal/Monad#`>>`().*>>€*!
-bengal/Monad#`>>`().[A]	*A€*!
-bengal/Monad#`>>`().(x)*x€*!
-bengal/Monad#`>>`().[B]	*B€*!
-bengal/Monad#`>>`().(y)*y€*
-bengal/Monad.
- *Monad€2
- bengal/2
- bengal/Monad#2&
- bengal/Monad#`<init>`().2!
- %bengal/Applicative#2
-& 'bengal/Monad#[F]2
- bengal/Monad#[F]2%
- bengal/Monad#flatMap().2(
- bengal/Monad#flatMap().[A]2(
- bengal/Monad#flatMap().(x)2
- bengal/Monad#[F]2(
- bengal/Monad#flatMap().[A]2(
- bengal/Monad#flatMap().[B]2(
- bengal/Monad#flatMap().(f)2(
- bengal/Monad#flatMap().[A]2
- bengal/Monad#[F]2(
- bengal/Monad#flatMap().[B]2
-# $bengal/Monad#[F]2(
-% &bengal/Monad#flatMap().[B]2#
- bengal/Monad#`>>=`().2&
- bengal/Monad#`>>=`().[A]2&
- bengal/Monad#`>>=`().(x)2&
- bengal/Monad#`>>=`().[A]2&
- bengal/Monad#`>>=`().[B]2&
- bengal/Monad#`>>=`().(f)2&
- bengal/Monad#`>>=`().[A]2
- bengal/Monad#[F]2&
- bengal/Monad#`>>=`().[B]2
- bengal/Monad#[F]2&
-  !bengal/Monad#`>>=`().[B]2%
-% %bengal/Monad#flatMap().2&
-% &bengal/Monad#`>>=`().(x)2&
-/ 0bengal/Monad#`>>=`().(f)2"
- 
-bengal/Monad#`>>`().2%
- bengal/Monad#`>>`().[A]2%
- bengal/Monad#`>>`().(x)2%
- bengal/Monad#`>>`().[A]2%
- bengal/Monad#`>>`().[B]2%
- bengal/Monad#`>>`().(y)2
- bengal/Monad#[F]2%
- bengal/Monad#`>>`().[B]2
- bengal/Monad#[F]2%
- bengal/Monad#`>>`().[B]2%
- bengal/Monad#flatMap().2%
-  bengal/Monad#`>>`().(x)2%
-. /bengal/Monad#`>>`().(y)2
- bengal/Monad.2
- bengal/TCApply#PZ 84B278909C2C103CDABB749513551503
