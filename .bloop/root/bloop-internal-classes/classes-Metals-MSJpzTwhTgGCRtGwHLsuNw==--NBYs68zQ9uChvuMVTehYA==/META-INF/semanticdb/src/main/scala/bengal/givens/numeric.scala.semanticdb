@@ -1,0 +1,85 @@
+
+¨*src/main/scala/bengal/givens/numeric.scala*/
+bengal/givens/numeric$package. *givens€*D
+-bengal/givens/numeric$package.given_Monoid_A#*given_Monoid_A€*J
+8bengal/givens/numeric$package.given_Monoid_A#`<init>`(). €@*<init>€*H
+;bengal/givens/numeric$package.given_Monoid_A#`<init>`().(N)  *N€*:
+0bengal/givens/numeric$package.given_Monoid_A#[A]	*A€*<
+/bengal/givens/numeric$package.given_Monoid_A#N.  *N€*D
+3bengal/givens/numeric$package.given_Monoid_A#empty. €*empty€*G
+7bengal/givens/numeric$package.given_Monoid_A#combine().*combine€*D
+:bengal/givens/numeric$package.given_Monoid_A#combine().(x)*x€*D
+:bengal/givens/numeric$package.given_Monoid_A#combine().(y)*y€*H
+/bengal/givens/numeric$package.given_Monoid_A(). (*given_Monoid_A€*<
+2bengal/givens/numeric$package.given_Monoid_A().[A]	*A€*>
+2bengal/givens/numeric$package.given_Monoid_A().(N)  *N€*<
+)bengal/givens/numeric$package.NumericOrd#*
+NumericOrd€*F
+4bengal/givens/numeric$package.NumericOrd#`<init>`(). €@*<init>€*D
+7bengal/givens/numeric$package.NumericOrd#`<init>`().(N)  *N€*6
+,bengal/givens/numeric$package.NumericOrd#[A]	*A€*8
++bengal/givens/numeric$package.NumericOrd#N.  *N€*C
+3bengal/givens/numeric$package.NumericOrd#compare().*compare€*@
+6bengal/givens/numeric$package.NumericOrd#compare().(x)*x€*@
+6bengal/givens/numeric$package.NumericOrd#compare().(y)*y€*@
++bengal/givens/numeric$package.NumericOrd(). (*
+NumericOrd€*8
+.bengal/givens/numeric$package.NumericOrd().[A]	*A€*:
+.bengal/givens/numeric$package.NumericOrd().(N)  *N€2
+ bengal/givens/2
+ bengal/2
+ bengal/2(
+bengal/givens/numeric$package.2F
+ 8bengal/givens/numeric$package.given_Monoid_A#`<init>`().2$
+ scala/package.Numeric#2>
+ 0bengal/givens/numeric$package.given_Monoid_A#[A]2
+  &bengal/Monoid#2>
+' (0bengal/givens/numeric$package.given_Monoid_A#[A]2>
+ 0bengal/givens/numeric$package.given_Monoid_A#[A]2=
+ /bengal/givens/numeric$package.given_Monoid_A#N.2A
+ 3bengal/givens/numeric$package.given_Monoid_A#empty.2(
+ scala/math/Numeric#zero().2=
+ /bengal/givens/numeric$package.given_Monoid_A#N.2E
+ 7bengal/givens/numeric$package.given_Monoid_A#combine().2H
+ :bengal/givens/numeric$package.given_Monoid_A#combine().(x)2>
+ 0bengal/givens/numeric$package.given_Monoid_A#[A]2H
+ :bengal/givens/numeric$package.given_Monoid_A#combine().(y)2>
+ 0bengal/givens/numeric$package.given_Monoid_A#[A]2(
+ scala/math/Numeric#plus().2=
+ /bengal/givens/numeric$package.given_Monoid_A#N.2H
+  :bengal/givens/numeric$package.given_Monoid_A#combine().(x)2H
+" #:bengal/givens/numeric$package.given_Monoid_A#combine().(y)2B
+		 4bengal/givens/numeric$package.NumericOrd#`<init>`().2$
+		 $scala/package.Numeric#2:
+	%	 &,bengal/givens/numeric$package.NumericOrd#[A]2
+	*	 -bengal/Ord#2:
+	.	 /,bengal/givens/numeric$package.NumericOrd#[A]2:
+		 ,bengal/givens/numeric$package.NumericOrd#[A]29
+		 +bengal/givens/numeric$package.NumericOrd#N.2A
+
+
+ 3bengal/givens/numeric$package.NumericOrd#compare().2D
+
+
+ 6bengal/givens/numeric$package.NumericOrd#compare().(x)2:
+
+
+ ,bengal/givens/numeric$package.NumericOrd#[A]2D
+
+
+ 6bengal/givens/numeric$package.NumericOrd#compare().(y)2:
+
+
+ ,bengal/givens/numeric$package.NumericOrd#[A]2,
+
+
+ %scala/math/Ordering#compare().29
+
+
+ +bengal/givens/numeric$package.NumericOrd#N.2D
+
+&
+ '6bengal/givens/numeric$package.NumericOrd#compare().(x)2D
+
+)
+ *6bengal/givens/numeric$package.NumericOrd#compare().(y)PZ 3A79E8DD7FF67F05D4C82B664895790D

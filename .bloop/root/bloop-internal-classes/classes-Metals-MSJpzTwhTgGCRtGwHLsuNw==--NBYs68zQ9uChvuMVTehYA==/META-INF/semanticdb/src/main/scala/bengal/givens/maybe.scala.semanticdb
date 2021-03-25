@@ -1,0 +1,404 @@
+
+Ö¥(src/main/scala/bengal/givens/maybe.scala*-
+bengal/givens/maybe$package. *givens€*J
+/bengal/givens/maybe$package.given_Monoid_Maybe#*given_Monoid_Maybe€*L
+:bengal/givens/maybe$package.given_Monoid_Maybe#`<init>`(). €@*<init>€*N
+?bengal/givens/maybe$package.given_Monoid_Maybe#`<init>`().(x$1)  *x$1€*<
+2bengal/givens/maybe$package.given_Monoid_Maybe#[A]	*A€*B
+3bengal/givens/maybe$package.given_Monoid_Maybe#x$1.  *x$1€*F
+5bengal/givens/maybe$package.given_Monoid_Maybe#empty. €*empty€*I
+9bengal/givens/maybe$package.given_Monoid_Maybe#combine().*combine€*F
+<bengal/givens/maybe$package.given_Monoid_Maybe#combine().(x)*x€*F
+<bengal/givens/maybe$package.given_Monoid_Maybe#combine().(y)*y€*
+local0 €*x€*
+local1 €*y€*N
+1bengal/givens/maybe$package.given_Monoid_Maybe(). (*given_Monoid_Maybe€*>
+4bengal/givens/maybe$package.given_Monoid_Maybe().[A]	*A€*D
+6bengal/givens/maybe$package.given_Monoid_Maybe().(x$1)  *x$1€*N
+0bengal/givens/maybe$package.given_Functor_Maybe.
+ (*given_Functor_Maybe€*B
+6bengal/givens/maybe$package.given_Functor_Maybe.map().*map€*C
+9bengal/givens/maybe$package.given_Functor_Maybe.map().[A]	*A€*C
+9bengal/givens/maybe$package.given_Functor_Maybe.map().(x)*x€*C
+9bengal/givens/maybe$package.given_Functor_Maybe.map().[B]	*B€*C
+9bengal/givens/maybe$package.given_Functor_Maybe.map().(f)*f€*
+local2 €*x€*T
+4bengal/givens/maybe$package.given_Applicative_Maybe#*given_Applicative_Maybe€*Q
+?bengal/givens/maybe$package.given_Applicative_Maybe#`<init>`(). €@*<init>€*O
+Bbengal/givens/maybe$package.given_Applicative_Maybe#`<init>`().(F)  *F€*C
+6bengal/givens/maybe$package.given_Applicative_Maybe#F.  *F€*H
+:bengal/givens/maybe$package.given_Applicative_Maybe#map(). *map€*G
+=bengal/givens/maybe$package.given_Applicative_Maybe#map().[A]	*A€*G
+=bengal/givens/maybe$package.given_Applicative_Maybe#map().(x)*x€*G
+=bengal/givens/maybe$package.given_Applicative_Maybe#map().[B]	*B€*G
+=bengal/givens/maybe$package.given_Applicative_Maybe#map().(f)*f€*H
+;bengal/givens/maybe$package.given_Applicative_Maybe#pure().*pure€*H
+>bengal/givens/maybe$package.given_Applicative_Maybe#pure().[A]	*A€*H
+>bengal/givens/maybe$package.given_Applicative_Maybe#pure().(x)*x€*D
+9bengal/givens/maybe$package.given_Applicative_Maybe#ap().*ap€*F
+<bengal/givens/maybe$package.given_Applicative_Maybe#ap().[A]	*A€*F
+<bengal/givens/maybe$package.given_Applicative_Maybe#ap().[B]	*B€*F
+<bengal/givens/maybe$package.given_Applicative_Maybe#ap().(f)*f€*F
+<bengal/givens/maybe$package.given_Applicative_Maybe#ap().(x)*x€*
+local3 €*f€*
+local4 €*x€*X
+6bengal/givens/maybe$package.given_Applicative_Maybe(). (*given_Applicative_Maybe€*E
+9bengal/givens/maybe$package.given_Applicative_Maybe().(F)  *F€*H
+.bengal/givens/maybe$package.given_Monad_Maybe#*given_Monad_Maybe€*K
+9bengal/givens/maybe$package.given_Monad_Maybe#`<init>`(). €@*<init>€*I
+<bengal/givens/maybe$package.given_Monad_Maybe#`<init>`().(A)  *A€*=
+0bengal/givens/maybe$package.given_Monad_Maybe#A.  *A€*@
+3bengal/givens/maybe$package.given_Monad_Maybe#ap(). *ap€*@
+6bengal/givens/maybe$package.given_Monad_Maybe#ap().[A]	*A€*@
+6bengal/givens/maybe$package.given_Monad_Maybe#ap().[B]	*B€*@
+6bengal/givens/maybe$package.given_Monad_Maybe#ap().(f)*f€*@
+6bengal/givens/maybe$package.given_Monad_Maybe#ap().(x)*x€*B
+4bengal/givens/maybe$package.given_Monad_Maybe#map(). *map€*A
+7bengal/givens/maybe$package.given_Monad_Maybe#map().[A]	*A€*A
+7bengal/givens/maybe$package.given_Monad_Maybe#map().(x)*x€*A
+7bengal/givens/maybe$package.given_Monad_Maybe#map().[B]	*B€*A
+7bengal/givens/maybe$package.given_Monad_Maybe#map().(f)*f€*D
+5bengal/givens/maybe$package.given_Monad_Maybe#pure(). *pure€*B
+8bengal/givens/maybe$package.given_Monad_Maybe#pure().[A]	*A€*B
+8bengal/givens/maybe$package.given_Monad_Maybe#pure().(x)*x€*H
+8bengal/givens/maybe$package.given_Monad_Maybe#flatMap().*flatMap€*E
+;bengal/givens/maybe$package.given_Monad_Maybe#flatMap().[A]	*A€*E
+;bengal/givens/maybe$package.given_Monad_Maybe#flatMap().(x)*x€*E
+;bengal/givens/maybe$package.given_Monad_Maybe#flatMap().[B]	*B€*E
+;bengal/givens/maybe$package.given_Monad_Maybe#flatMap().(f)*f€*
+local5 €*x€*L
+0bengal/givens/maybe$package.given_Monad_Maybe(). (*given_Monad_Maybe€*?
+3bengal/givens/maybe$package.given_Monad_Maybe().(A)  *A€*P
+1bengal/givens/maybe$package.given_Foldable_Maybe.
+ (*given_Foldable_Maybe€*G
+9bengal/givens/maybe$package.given_Foldable_Maybe.foldL().*foldL€*F
+<bengal/givens/maybe$package.given_Foldable_Maybe.foldL().[A]	*A€*F
+<bengal/givens/maybe$package.given_Foldable_Maybe.foldL().(x)*x€*F
+<bengal/givens/maybe$package.given_Foldable_Maybe.foldL().[B]	*B€*F
+<bengal/givens/maybe$package.given_Foldable_Maybe.foldL().(z)*z€*F
+<bengal/givens/maybe$package.given_Foldable_Maybe.foldL().(f)*f€*
+local6 €*x€*G
+9bengal/givens/maybe$package.given_Foldable_Maybe.foldR().*foldR€*F
+<bengal/givens/maybe$package.given_Foldable_Maybe.foldR().[A]	*A€*F
+<bengal/givens/maybe$package.given_Foldable_Maybe.foldR().(x)*x€*F
+<bengal/givens/maybe$package.given_Foldable_Maybe.foldR().[B]	*B€*F
+<bengal/givens/maybe$package.given_Foldable_Maybe.foldR().(z)*z€*F
+<bengal/givens/maybe$package.given_Foldable_Maybe.foldR().(f)*f€*
+local7 €*x€*N
+1bengal/givens/maybe$package.given_Traverse_Maybe#*given_Traverse_Maybe€*N
+<bengal/givens/maybe$package.given_Traverse_Maybe#`<init>`(). €@*<init>€*N
+@bengal/givens/maybe$package.given_Traverse_Maybe#`<init>`().(FO)  *FO€*N
+@bengal/givens/maybe$package.given_Traverse_Maybe#`<init>`().(FU)  *FU€*B
+4bengal/givens/maybe$package.given_Traverse_Maybe#FO.  *FO€*B
+4bengal/givens/maybe$package.given_Traverse_Maybe#FU.  *FU€*I
+9bengal/givens/maybe$package.given_Traverse_Maybe#foldL(). *foldL€*F
+<bengal/givens/maybe$package.given_Traverse_Maybe#foldL().[A]	*A€*F
+<bengal/givens/maybe$package.given_Traverse_Maybe#foldL().(x)*x€*F
+<bengal/givens/maybe$package.given_Traverse_Maybe#foldL().[B]	*B€*F
+<bengal/givens/maybe$package.given_Traverse_Maybe#foldL().(z)*z€*F
+<bengal/givens/maybe$package.given_Traverse_Maybe#foldL().(f)*f€*I
+9bengal/givens/maybe$package.given_Traverse_Maybe#foldR(). *foldR€*F
+<bengal/givens/maybe$package.given_Traverse_Maybe#foldR().[A]	*A€*F
+<bengal/givens/maybe$package.given_Traverse_Maybe#foldR().(x)*x€*F
+<bengal/givens/maybe$package.given_Traverse_Maybe#foldR().[B]	*B€*F
+<bengal/givens/maybe$package.given_Traverse_Maybe#foldR().(z)*z€*F
+<bengal/givens/maybe$package.given_Traverse_Maybe#foldR().(f)*f€*E
+7bengal/givens/maybe$package.given_Traverse_Maybe#map(). *map€*D
+:bengal/givens/maybe$package.given_Traverse_Maybe#map().[A]	*A€*D
+:bengal/givens/maybe$package.given_Traverse_Maybe#map().(x)*x€*D
+:bengal/givens/maybe$package.given_Traverse_Maybe#map().[B]	*B€*D
+:bengal/givens/maybe$package.given_Traverse_Maybe#map().(f)*f€*M
+<bengal/givens/maybe$package.given_Traverse_Maybe#traverse().*traverse€*I
+?bengal/givens/maybe$package.given_Traverse_Maybe#traverse().[A]	*A€*I
+?bengal/givens/maybe$package.given_Traverse_Maybe#traverse().(x)*x€*I
+?bengal/givens/maybe$package.given_Traverse_Maybe#traverse().[G]	*G€*I
+?bengal/givens/maybe$package.given_Traverse_Maybe#traverse().[B]	*B€*I
+?bengal/givens/maybe$package.given_Traverse_Maybe#traverse().(f)*f€*M
+@bengal/givens/maybe$package.given_Traverse_Maybe#traverse().(AP)  *AP€*
+local8*x€*
+local9*z€*R
+3bengal/givens/maybe$package.given_Traverse_Maybe(). (*given_Traverse_Maybe€*D
+7bengal/givens/maybe$package.given_Traverse_Maybe().(FO)  *FO€*D
+7bengal/givens/maybe$package.given_Traverse_Maybe().(FU)  *FU€2
+ bengal/givens/2
+ bengal/2
+ bengal/2 
+ bengal/data/Maybe.2 
+ bengal/data/Maybe#2
+ bengal/data/2
+ bengal/2 
+ bengal/data/Maybe.2
+ bengal/data/2
+ bengal/2&
+bengal/givens/maybe$package.2H
+ :bengal/givens/maybe$package.given_Monoid_Maybe#`<init>`().2
+ bengal/Monoid#2@
+ 2bengal/givens/maybe$package.given_Monoid_Maybe#[A]2
+ "bengal/Monoid#2 
+# (bengal/data/Maybe#2@
+) *2bengal/givens/maybe$package.given_Monoid_Maybe#[A]2@
+ 2bengal/givens/maybe$package.given_Monoid_Maybe#[A]2C
+ 5bengal/givens/maybe$package.given_Monoid_Maybe#empty.2&
+ bengal/data/Maybe.Empty.2G
+		 9bengal/givens/maybe$package.given_Monoid_Maybe#combine().2J
+ <bengal/givens/maybe$package.given_Monoid_Maybe#combine().(x)2 
+ bengal/data/Maybe#2@
+ 2bengal/givens/maybe$package.given_Monoid_Maybe#[A]2J
+		 <bengal/givens/maybe$package.given_Monoid_Maybe#combine().(y)2 
+		 bengal/data/Maybe#2@
+		 2bengal/givens/maybe$package.given_Monoid_Maybe#[A]2#
+	!	 !scala/Tuple2.apply().2J
+	!	 "<bengal/givens/maybe$package.given_Monoid_Maybe#combine().(x)2J
+	$	 %<bengal/givens/maybe$package.given_Monoid_Maybe#combine().(y)2%
+
+
+ scala/Tuple2.unapply().2/
+
+
+ !bengal/data/Maybe.Just.unapply().2%
+
+
+ bengal/data/Maybe.Just.2
+
+
+ local02/
+
+
+ !bengal/data/Maybe.Just.unapply().2%
+
+
+ bengal/data/Maybe.Just.2
+
+
+ local12-
+
+%
+ %bengal/data/Maybe.Just.apply().2%
+
+!
+ %bengal/data/Maybe.Just.2$
+
+&
+ &bengal/Monoid#`|+|`().2
+
+&
+ 'local02
+
+,
+ -local12&
+ bengal/data/Maybe.Empty.2>
+ 0bengal/givens/maybe$package.given_Functor_Maybe.2
+ bengal/Functor#2D
+ 6bengal/givens/maybe$package.given_Functor_Maybe.map().2G
+ 9bengal/givens/maybe$package.given_Functor_Maybe.map().[A]2G
+ 9bengal/givens/maybe$package.given_Functor_Maybe.map().(x)2 
+ bengal/data/Maybe#2G
+ 9bengal/givens/maybe$package.given_Functor_Maybe.map().[A]2G
+ 9bengal/givens/maybe$package.given_Functor_Maybe.map().[B]2G
+ 9bengal/givens/maybe$package.given_Functor_Maybe.map().(f)2G
+ 9bengal/givens/maybe$package.given_Functor_Maybe.map().[A]2G
+ 9bengal/givens/maybe$package.given_Functor_Maybe.map().[B]2G
+ 9bengal/givens/maybe$package.given_Functor_Maybe.map().(x)2/
+ !bengal/data/Maybe.Just.unapply().2%
+ bengal/data/Maybe.Just.2
+ local22-
+ bengal/data/Maybe.Just.apply().2%
+ bengal/data/Maybe.Just.2&
+ scala/Function1#apply().2G
+ 9bengal/givens/maybe$package.given_Functor_Maybe.map().(f)2
+ local22&
+ bengal/data/Maybe.Empty.2M
+ ?bengal/givens/maybe$package.given_Applicative_Maybe#`<init>`().2
+ bengal/Functor#2!
+! ,bengal/Applicative#2D
+ 6bengal/givens/maybe$package.given_Applicative_Maybe#F.2D
+	 
+6bengal/givens/maybe$package.given_Applicative_Maybe#F.2H
+ :bengal/givens/maybe$package.given_Applicative_Maybe#map().2#
+
+ 
+bengal/Functor#map().2K
+
+ 
+=bengal/givens/maybe$package.given_Applicative_Maybe#map().(x)2K
+
+ 
+=bengal/givens/maybe$package.given_Applicative_Maybe#map().(f)2I
+ 
+;bengal/givens/maybe$package.given_Applicative_Maybe#pure().2L
+ >bengal/givens/maybe$package.given_Applicative_Maybe#pure().[A]2L
+ >bengal/givens/maybe$package.given_Applicative_Maybe#pure().(x)2L
+ >bengal/givens/maybe$package.given_Applicative_Maybe#pure().[A]2-
+ bengal/data/Maybe.Just.apply().2%
+ bengal/data/Maybe.Just.2L
+ >bengal/givens/maybe$package.given_Applicative_Maybe#pure().(x)2G
+ 
+9bengal/givens/maybe$package.given_Applicative_Maybe#ap().2J
+ <bengal/givens/maybe$package.given_Applicative_Maybe#ap().[A]2J
+ <bengal/givens/maybe$package.given_Applicative_Maybe#ap().[B]2J
+ <bengal/givens/maybe$package.given_Applicative_Maybe#ap().(f)2 
+ bengal/data/Maybe#2J
+ <bengal/givens/maybe$package.given_Applicative_Maybe#ap().[A]2J
+! "<bengal/givens/maybe$package.given_Applicative_Maybe#ap().[B]2J
+ <bengal/givens/maybe$package.given_Applicative_Maybe#ap().(x)2 
+ bengal/data/Maybe#2J
+ <bengal/givens/maybe$package.given_Applicative_Maybe#ap().[A]2#
+ scala/Tuple2.apply().2J
+ <bengal/givens/maybe$package.given_Applicative_Maybe#ap().(f)2J
+ <bengal/givens/maybe$package.given_Applicative_Maybe#ap().(x)2%
+ scala/Tuple2.unapply().2/
+ !bengal/data/Maybe.Just.unapply().2%
+ bengal/data/Maybe.Just.2
+ local32/
+ !bengal/data/Maybe.Just.unapply().2%
+ bengal/data/Maybe.Just.2
+ local42-
+% %bengal/data/Maybe.Just.apply().2%
+! %bengal/data/Maybe.Just.2&
+' 'scala/Function1#apply().2
+& 'local32
+( )local42&
+ bengal/data/Maybe.Empty.2G
+ 9bengal/givens/maybe$package.given_Monad_Maybe#`<init>`().2!
+ bengal/Applicative#2
+% *bengal/Monad#2>
+ 0bengal/givens/maybe$package.given_Monad_Maybe#A.2>
+	 
+0bengal/givens/maybe$package.given_Monad_Maybe#A.2A
+ 3bengal/givens/maybe$package.given_Monad_Maybe#ap().2&
+
+ 
+bengal/Applicative#ap().2D
+
+ 
+6bengal/givens/maybe$package.given_Monad_Maybe#ap().(f)2D
+
+ 
+6bengal/givens/maybe$package.given_Monad_Maybe#ap().(x)2B
+ 4bengal/givens/maybe$package.given_Monad_Maybe#map().2#
+
+ 
+bengal/Functor#map().2E
+
+ 
+7bengal/givens/maybe$package.given_Monad_Maybe#map().(x)2E
+
+ 
+7bengal/givens/maybe$package.given_Monad_Maybe#map().(f)2C
+ 5bengal/givens/maybe$package.given_Monad_Maybe#pure().2(
+
+ 
+bengal/Applicative#pure().2F
+
+ 
+8bengal/givens/maybe$package.given_Monad_Maybe#pure().(x)2F
+ 8bengal/givens/maybe$package.given_Monad_Maybe#flatMap().2I
+ ;bengal/givens/maybe$package.given_Monad_Maybe#flatMap().[A]2I
+ ;bengal/givens/maybe$package.given_Monad_Maybe#flatMap().(x)2 
+ bengal/data/Maybe#2I
+ ;bengal/givens/maybe$package.given_Monad_Maybe#flatMap().[A]2I
+ ;bengal/givens/maybe$package.given_Monad_Maybe#flatMap().[B]2I
+ ;bengal/givens/maybe$package.given_Monad_Maybe#flatMap().(f)2I
+ ;bengal/givens/maybe$package.given_Monad_Maybe#flatMap().[A]2 
+  bengal/data/Maybe#2I
+! ";bengal/givens/maybe$package.given_Monad_Maybe#flatMap().[B]2I
+' (;bengal/givens/maybe$package.given_Monad_Maybe#flatMap().(x)2/
+   !bengal/data/Maybe.Just.unapply().2%
+   bengal/data/Maybe.Just.2
+   local52&
+   scala/Function1#apply().2I
+   ;bengal/givens/maybe$package.given_Monad_Maybe#flatMap().(f)2
+   local52&
+!! bengal/data/Maybe.Empty.2?
+## 1bengal/givens/maybe$package.given_Foldable_Maybe.2
+## bengal/Foldable#2G
+%% 9bengal/givens/maybe$package.given_Foldable_Maybe.foldL().2J
+$$ <bengal/givens/maybe$package.given_Foldable_Maybe.foldL().[A]2J
+$$ <bengal/givens/maybe$package.given_Foldable_Maybe.foldL().(x)2 
+$$ bengal/data/Maybe#2J
+$$ <bengal/givens/maybe$package.given_Foldable_Maybe.foldL().[A]2J
+%% <bengal/givens/maybe$package.given_Foldable_Maybe.foldL().[B]2J
+%% <bengal/givens/maybe$package.given_Foldable_Maybe.foldL().(z)2J
+%% <bengal/givens/maybe$package.given_Foldable_Maybe.foldL().[B]2J
+%% <bengal/givens/maybe$package.given_Foldable_Maybe.foldL().(f)2J
+%% <bengal/givens/maybe$package.given_Foldable_Maybe.foldL().[B]2J
+%% <bengal/givens/maybe$package.given_Foldable_Maybe.foldL().[A]2J
+%$% %<bengal/givens/maybe$package.given_Foldable_Maybe.foldL().[B]2J
+%)% *<bengal/givens/maybe$package.given_Foldable_Maybe.foldL().(x)2/
+&& !bengal/data/Maybe.Just.unapply().2%
+&& bengal/data/Maybe.Just.2
+&& local62&
+&& scala/Function2#apply().2J
+&& <bengal/givens/maybe$package.given_Foldable_Maybe.foldL().(f)2J
+&& <bengal/givens/maybe$package.given_Foldable_Maybe.foldL().(z)2
+&& local62J
+'' <bengal/givens/maybe$package.given_Foldable_Maybe.foldL().(z)2G
+(( 9bengal/givens/maybe$package.given_Foldable_Maybe.foldR().2J
+$$ <bengal/givens/maybe$package.given_Foldable_Maybe.foldR().[A]2J
+$$ <bengal/givens/maybe$package.given_Foldable_Maybe.foldR().(x)2J
+$$ <bengal/givens/maybe$package.given_Foldable_Maybe.foldR().[A]2J
+(( <bengal/givens/maybe$package.given_Foldable_Maybe.foldR().[B]2J
+(( <bengal/givens/maybe$package.given_Foldable_Maybe.foldR().(z)2J
+(( <bengal/givens/maybe$package.given_Foldable_Maybe.foldR().[B]2J
+(( <bengal/givens/maybe$package.given_Foldable_Maybe.foldR().(f)2J
+(( <bengal/givens/maybe$package.given_Foldable_Maybe.foldR().[A]2J
+(( <bengal/givens/maybe$package.given_Foldable_Maybe.foldR().[B]2J
+($( %<bengal/givens/maybe$package.given_Foldable_Maybe.foldR().[B]2J
+()( *<bengal/givens/maybe$package.given_Foldable_Maybe.foldR().(x)2/
+)) !bengal/data/Maybe.Just.unapply().2%
+)) bengal/data/Maybe.Just.2
+)) local72&
+)) scala/Function2#apply().2J
+)) <bengal/givens/maybe$package.given_Foldable_Maybe.foldR().(f)2
+)) local72J
+)) <bengal/givens/maybe$package.given_Foldable_Maybe.foldR().(z)2J
+** <bengal/givens/maybe$package.given_Foldable_Maybe.foldR().(z)2J
+,, <bengal/givens/maybe$package.given_Traverse_Maybe#`<init>`().2
+,, bengal/Foldable#2
+,&, -bengal/Functor#2
+,7, ?bengal/Traverse#2B
+,, 4bengal/givens/maybe$package.given_Traverse_Maybe#FO.2B
+,", $4bengal/givens/maybe$package.given_Traverse_Maybe#FU.2B
+-	- 4bengal/givens/maybe$package.given_Traverse_Maybe#FO.2G
+-- 9bengal/givens/maybe$package.given_Traverse_Maybe#foldL().2&
+-- bengal/Foldable#foldL().2J
+-- <bengal/givens/maybe$package.given_Traverse_Maybe#foldL().(x)2J
+-- <bengal/givens/maybe$package.given_Traverse_Maybe#foldL().(z)2J
+-- <bengal/givens/maybe$package.given_Traverse_Maybe#foldL().(f)2G
+-- 9bengal/givens/maybe$package.given_Traverse_Maybe#foldR().2&
+-- bengal/Foldable#foldR().2J
+-- <bengal/givens/maybe$package.given_Traverse_Maybe#foldR().(x)2J
+-- <bengal/givens/maybe$package.given_Traverse_Maybe#foldR().(z)2J
+-- <bengal/givens/maybe$package.given_Traverse_Maybe#foldR().(f)2B
+-- 4bengal/givens/maybe$package.given_Traverse_Maybe#FU.2E
+-- 7bengal/givens/maybe$package.given_Traverse_Maybe#map().2#
+-- bengal/Functor#map().2H
+-- :bengal/givens/maybe$package.given_Traverse_Maybe#map().(x)2H
+-- :bengal/givens/maybe$package.given_Traverse_Maybe#map().(f)2J
+// <bengal/givens/maybe$package.given_Traverse_Maybe#traverse().2M
+.. ?bengal/givens/maybe$package.given_Traverse_Maybe#traverse().[A]2M
+.. ?bengal/givens/maybe$package.given_Traverse_Maybe#traverse().(x)2 
+.. bengal/data/Maybe#2M
+.. ?bengal/givens/maybe$package.given_Traverse_Maybe#traverse().[A]2M
+// ?bengal/givens/maybe$package.given_Traverse_Maybe#traverse().[G]2M
+// ?bengal/givens/maybe$package.given_Traverse_Maybe#traverse().[B]2M
+// ?bengal/givens/maybe$package.given_Traverse_Maybe#traverse().(f)2M
+// ?bengal/givens/maybe$package.given_Traverse_Maybe#traverse().[A]2M
+/"/ #?bengal/givens/maybe$package.given_Traverse_Maybe#traverse().[G]2M
+/$/ %?bengal/givens/maybe$package.given_Traverse_Maybe#traverse().[B]2N
+/./ 0@bengal/givens/maybe$package.given_Traverse_Maybe#traverse().(AP)2!
+/2/ =bengal/Applicative#2M
+/>/ ??bengal/givens/maybe$package.given_Traverse_Maybe#traverse().[G]2G
+00 9bengal/givens/maybe$package.given_Traverse_Maybe#foldR().2M
+00 ?bengal/givens/maybe$package.given_Traverse_Maybe#traverse().(x)2(
+00 bengal/Applicative#pure().2N
+00 @bengal/givens/maybe$package.given_Traverse_Maybe#traverse().(AP)2&
+00 bengal/data/Maybe.Empty.2
+00  local82
+0"0 #local92#
+0(0 (bengal/Functor#map().2&
+0)0 )scala/Function1#apply().2M
+0(0 )?bengal/givens/maybe$package.given_Traverse_Maybe#traverse().(f)2
+0*0 +local82-
+050 5bengal/data/Maybe.Just.apply().2%
+010 5bengal/data/Maybe.Just.PZ 08A3D37A18DE4EC62F266A5A22C56600

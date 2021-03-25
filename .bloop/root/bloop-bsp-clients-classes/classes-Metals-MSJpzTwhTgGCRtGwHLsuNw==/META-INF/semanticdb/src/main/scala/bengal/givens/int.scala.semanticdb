@@ -1,0 +1,122 @@
+
+Œ*&src/main/scala/bengal/givens/int.scala*.
+bengal/givens/WrappedInt.
+ *
+WrappedInt€*/
+ bengal/givens/WrappedInt.SumInt#*SumInt€*1
+ bengal/givens/WrappedInt.SumInt.
+ *SumInt€*6
+(bengal/givens/WrappedInt.SumInt.apply().*apply€*5
++bengal/givens/WrappedInt.SumInt.apply().(x)*x€*6
+(bengal/givens/WrappedInt.SumInt.value().*value€*5
++bengal/givens/WrappedInt.SumInt.value().(x)*x€*K
+-bengal/givens/WrappedInt.given_Monoid_SumInt.
+ (*given_Monoid_SumInt€*D
+3bengal/givens/WrappedInt.given_Monoid_SumInt.empty. €*empty€*G
+7bengal/givens/WrappedInt.given_Monoid_SumInt.combine().*combine€*D
+:bengal/givens/WrappedInt.given_Monoid_SumInt.combine().(x)*x€*D
+:bengal/givens/WrappedInt.given_Monoid_SumInt.combine().(y)*y€*1
+!bengal/givens/WrappedInt.ProdInt#*ProdInt€*3
+!bengal/givens/WrappedInt.ProdInt.
+ *ProdInt€*7
+)bengal/givens/WrappedInt.ProdInt.apply().*apply€*6
+,bengal/givens/WrappedInt.ProdInt.apply().(x)*x€*7
+)bengal/givens/WrappedInt.ProdInt.value().*value€*6
+,bengal/givens/WrappedInt.ProdInt.value().(x)*x€*M
+.bengal/givens/WrappedInt.given_Monoid_ProdInt.
+ (*given_Monoid_ProdInt€*E
+4bengal/givens/WrappedInt.given_Monoid_ProdInt.empty. €*empty€*H
+8bengal/givens/WrappedInt.given_Monoid_ProdInt.combine().*combine€*E
+;bengal/givens/WrappedInt.given_Monoid_ProdInt.combine().(x)*x€*E
+;bengal/givens/WrappedInt.given_Monoid_ProdInt.combine().(y)*y€*+
+bengal/givens/int$package. *givens€*F
++bengal/givens/int$package.given_Monoid_Int.
+ (*given_Monoid_Int€*B
+1bengal/givens/int$package.given_Monoid_Int.empty. €*empty€*E
+5bengal/givens/int$package.given_Monoid_Int.combine().*combine€*B
+8bengal/givens/int$package.given_Monoid_Int.combine().(x)*x€*B
+8bengal/givens/int$package.given_Monoid_Int.combine().(y)*y€2
+ bengal/givens/2
+ bengal/2
+ bengal/Monoid.2
+ bengal/Monoid#2
+ bengal/2'
+		 bengal/givens/WrappedInt.2.
+
+
+  bengal/givens/WrappedInt.SumInt#2
+
+
+ 
+scala/Int#2.
+	  bengal/givens/WrappedInt.SumInt.26
+ (bengal/givens/WrappedInt.SumInt.apply().29
+ +bengal/givens/WrappedInt.SumInt.apply().(x)2
+ 
+scala/Int#2.
+  bengal/givens/WrappedInt.SumInt#29
+  !+bengal/givens/WrappedInt.SumInt.apply().(x)26
+ (bengal/givens/WrappedInt.SumInt.value().29
+ +bengal/givens/WrappedInt.SumInt.value().(x)2.
+  bengal/givens/WrappedInt.SumInt#2
+ 
+scala/Int#29
+  !+bengal/givens/WrappedInt.SumInt.value().(x)2;
+ -bengal/givens/WrappedInt.given_Monoid_SumInt.2
+ bengal/Monoid#2.
+  bengal/givens/WrappedInt.SumInt#2A
+ 3bengal/givens/WrappedInt.given_Monoid_SumInt.empty.2E
+
+ 7bengal/givens/WrappedInt.given_Monoid_SumInt.combine().2H
+ :bengal/givens/WrappedInt.given_Monoid_SumInt.combine().(x)2.
+  bengal/givens/WrappedInt.SumInt#2H
+ :bengal/givens/WrappedInt.given_Monoid_SumInt.combine().(y)2.
+  bengal/givens/WrappedInt.SumInt#2 
+! "scala/Int#`+`(+4).2H
+  :bengal/givens/WrappedInt.given_Monoid_SumInt.combine().(x)2H
+# $:bengal/givens/WrappedInt.given_Monoid_SumInt.combine().(y)2/
+ !bengal/givens/WrappedInt.ProdInt#2
+ 
+scala/Int#2/
+	 !bengal/givens/WrappedInt.ProdInt.27
+ )bengal/givens/WrappedInt.ProdInt.apply().2:
+ ,bengal/givens/WrappedInt.ProdInt.apply().(x)2
+ 
+scala/Int#2/
+ !bengal/givens/WrappedInt.ProdInt#2:
+! ",bengal/givens/WrappedInt.ProdInt.apply().(x)27
+ )bengal/givens/WrappedInt.ProdInt.value().2:
+ ,bengal/givens/WrappedInt.ProdInt.value().(x)2/
+ !bengal/givens/WrappedInt.ProdInt#2
+ 
+scala/Int#2:
+! ",bengal/givens/WrappedInt.ProdInt.value().(x)2<
+ .bengal/givens/WrappedInt.given_Monoid_ProdInt.2
+ bengal/Monoid#2/
+ !bengal/givens/WrappedInt.ProdInt#2B
+ 4bengal/givens/WrappedInt.given_Monoid_ProdInt.empty.2F
+
+ 8bengal/givens/WrappedInt.given_Monoid_ProdInt.combine().2I
+ ;bengal/givens/WrappedInt.given_Monoid_ProdInt.combine().(x)2/
+ !bengal/givens/WrappedInt.ProdInt#2I
+ ;bengal/givens/WrappedInt.given_Monoid_ProdInt.combine().(y)2/
+ !bengal/givens/WrappedInt.ProdInt#2 
+" #scala/Int#`*`(+3).2I
+  !;bengal/givens/WrappedInt.given_Monoid_ProdInt.combine().(x)2I
+$ %;bengal/givens/WrappedInt.given_Monoid_ProdInt.combine().(y)2$
+bengal/givens/int$package.29
+ +bengal/givens/int$package.given_Monoid_Int.2
+ bengal/Monoid#2
+ 
+scala/Int#2?
+ 1bengal/givens/int$package.given_Monoid_Int.empty.2C
+ 5bengal/givens/int$package.given_Monoid_Int.combine().2F
+ 8bengal/givens/int$package.given_Monoid_Int.combine().(x)2
+ 
+scala/Int#2F
+ 8bengal/givens/int$package.given_Monoid_Int.combine().(y)2
+ 
+scala/Int#2 
+ scala/Int#`+`(+4).2F
+ 8bengal/givens/int$package.given_Monoid_Int.combine().(x)2F
+ 8bengal/givens/int$package.given_Monoid_Int.combine().(y)PZ 0028A0E963936ABCD769F0F7DC737783

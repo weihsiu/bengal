@@ -1,13 +1,12 @@
-val dottyVersion = "0.16.0-RC3"
-
 lazy val root = project
   .in(file("."))
   .settings(
     name := "bengal",
     version := "0.1.0",
-    scalaVersion := dottyVersion,
+    scalaVersion := "3.0.0-RC1",
+    scalacOptions ++= Seq(
+      "-Yindent-colons"
+    ),
     libraryDependencies ++= Seq(
-      "org.typelevel" %% "shapeless-core" % "3.0.0-SNAPSHOT",
-      ("org.typelevel" %% "cats-core" % "1.6.0").withDottyCompat(scalaVersion.value)
     )
   )

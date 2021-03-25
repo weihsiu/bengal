@@ -1,6 +1,9 @@
 package bengal
 
-trait Traverse[F[_]] extends Functor[F] with Foldable[F] {
-  def (x: F[A]) traverse [G[_], A, B] (f: A => G[B]) given (AP: Applicative[G]): G[F[B]]
-  def (x: F[G[A]]) sequence [G[_], A] given Applicative[G]: G[F[A]] = x traverse identity
-}
+trait Traverse[F[_]] extends Functor[F] with Foldable[F]:
+  extension [A](x: F[A])
+    def traverse [G[_], B] (f: A => G[B])(using AP: Applicative[G]): G[F[B]]
+  extension[G[_], A](x: F[G[A]])
+    def sequence(using Applicative[G]): G[F[A]] = x traverse identity
+
+object Traverse extends TCApply[Traverse]

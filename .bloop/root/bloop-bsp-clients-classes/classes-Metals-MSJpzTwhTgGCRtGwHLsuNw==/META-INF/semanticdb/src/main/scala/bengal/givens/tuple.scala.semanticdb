@@ -1,0 +1,63 @@
+
+ü(src/main/scala/bengal/givens/tuple.scala*-
+bengal/givens/tuple$package. *givens€*F
+-bengal/givens/tuple$package.given_Monoid_A_B#*given_Monoid_A_B€*J
+8bengal/givens/tuple$package.given_Monoid_A_B#`<init>`(). €@*<init>€*J
+<bengal/givens/tuple$package.given_Monoid_A_B#`<init>`().(M1)  *M1€*J
+<bengal/givens/tuple$package.given_Monoid_A_B#`<init>`().(M2)  *M2€*:
+0bengal/givens/tuple$package.given_Monoid_A_B#[A]	*A€*:
+0bengal/givens/tuple$package.given_Monoid_A_B#[B]	*B€*>
+0bengal/givens/tuple$package.given_Monoid_A_B#M1.  *M1€*>
+0bengal/givens/tuple$package.given_Monoid_A_B#M2.  *M2€*D
+3bengal/givens/tuple$package.given_Monoid_A_B#empty. €*empty€*G
+7bengal/givens/tuple$package.given_Monoid_A_B#combine().*combine€*D
+:bengal/givens/tuple$package.given_Monoid_A_B#combine().(x)*x€*D
+:bengal/givens/tuple$package.given_Monoid_A_B#combine().(y)*y€*J
+/bengal/givens/tuple$package.given_Monoid_A_B(). (*given_Monoid_A_B€*<
+2bengal/givens/tuple$package.given_Monoid_A_B().[A]	*A€*<
+2bengal/givens/tuple$package.given_Monoid_A_B().[B]	*B€*@
+3bengal/givens/tuple$package.given_Monoid_A_B().(M1)  *M1€*@
+3bengal/givens/tuple$package.given_Monoid_A_B().(M2)  *M2€2
+ bengal/givens/2
+ bengal/2
+ bengal/Monoid.2
+ bengal/Monoid#2
+ bengal/2&
+bengal/givens/tuple$package.2F
+ 8bengal/givens/tuple$package.given_Monoid_A_B#`<init>`().2
+ bengal/Monoid#2>
+ 0bengal/givens/tuple$package.given_Monoid_A_B#[A]2
+& ,bengal/Monoid#2>
+- .0bengal/givens/tuple$package.given_Monoid_A_B#[B]2
+2 8bengal/Monoid#2>
+: ;0bengal/givens/tuple$package.given_Monoid_A_B#[A]2>
+= >0bengal/givens/tuple$package.given_Monoid_A_B#[B]2>
+ 0bengal/givens/tuple$package.given_Monoid_A_B#[A]2>
+
+ 0bengal/givens/tuple$package.given_Monoid_A_B#[B]2>
+ 0bengal/givens/tuple$package.given_Monoid_A_B#M1.2>
+" $0bengal/givens/tuple$package.given_Monoid_A_B#M2.2A
+ 3bengal/givens/tuple$package.given_Monoid_A_B#empty.2#
+ scala/Tuple2.apply().2$
+ bengal/Monoid#empty().2>
+ 0bengal/givens/tuple$package.given_Monoid_A_B#M1.2$
+ !bengal/Monoid#empty().2>
+ 0bengal/givens/tuple$package.given_Monoid_A_B#M2.2E
+ 7bengal/givens/tuple$package.given_Monoid_A_B#combine().2H
+ :bengal/givens/tuple$package.given_Monoid_A_B#combine().(x)2>
+ 0bengal/givens/tuple$package.given_Monoid_A_B#[A]2>
+ 0bengal/givens/tuple$package.given_Monoid_A_B#[B]2H
+ :bengal/givens/tuple$package.given_Monoid_A_B#combine().(y)2>
+ 0bengal/givens/tuple$package.given_Monoid_A_B#[A]2>
+ 0bengal/givens/tuple$package.given_Monoid_A_B#[B]2#
+ scala/Tuple2.apply().2$
+ bengal/Monoid#`|+|`().2
+  "scala/Tuple2#_1.2H
+ :bengal/givens/tuple$package.given_Monoid_A_B#combine().(x)2
+) +scala/Tuple2#_1.2H
+' (:bengal/givens/tuple$package.given_Monoid_A_B#combine().(y)2$
+- -bengal/Monoid#`|+|`().2
+/ 1scala/Tuple2#_2.2H
+- .:bengal/givens/tuple$package.given_Monoid_A_B#combine().(x)2
+8 :scala/Tuple2#_2.2H
+6 7:bengal/givens/tuple$package.given_Monoid_A_B#combine().(y)PZ 217F0BA29E2FF27EE414421FF6D9F28C

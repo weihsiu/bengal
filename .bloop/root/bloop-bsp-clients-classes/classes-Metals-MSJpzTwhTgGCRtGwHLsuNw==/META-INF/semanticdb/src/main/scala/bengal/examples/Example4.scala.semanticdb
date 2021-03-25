@@ -1,0 +1,94 @@
+
+¤-src/main/scala/bengal/examples/Example4.scala*,
+bengal/examples/Example4.
+ *Example4€*-
+ bengal/examples/Example4.main().*main€*3
+&bengal/examples/Example4.main().(args)*args€*&
+local0 è*given_Functor_Option€2
+ bengal/examples/2
+ bengal/2
+ bengal/2'
+ bengal/givens/WrappedInt.2
+ bengal/givens/2
+ bengal/2
+ bengal/givens/2
+ bengal/2'
+ bengal/examples/Example4.2.
+ 
+ bengal/examples/Example4.main().24
+ &bengal/examples/Example4.main().(args)2
+ scala/Array#2"
+ scala/Predef.String#2
+! %scala/Unit#2'
+ scala/Predef.println(+1).2!
+ scala/Option#map().2!
+ scala/Some.apply().2
+ scala/Some.2 
+ scala/Int#`+`(+4).2'
+ scala/Predef.println(+1).2$
+ bengal/Monoid#`|+|`().2'
+ scala/Predef.println(+1).2$
+ bengal/Monoid#`|+|`().2'
+ scala/Predef.println(+1).2$
+ bengal/Monoid#`|+|`().26
+ (bengal/givens/WrappedInt.SumInt.apply().2.
+  bengal/givens/WrappedInt.SumInt.26
+   (bengal/givens/WrappedInt.SumInt.apply().2.
+   bengal/givens/WrappedInt.SumInt.2'
+ scala/Predef.println(+1).2$
+ bengal/Monoid#`|+|`().27
+ )bengal/givens/WrappedInt.ProdInt.apply().2/
+ !bengal/givens/WrappedInt.ProdInt.27
+" ")bengal/givens/WrappedInt.ProdInt.apply().2/
+ "!bengal/givens/WrappedInt.ProdInt.2'
+ scala/Predef.println(+1).2$
+ bengal/Monoid#`|+|`().2#
+ scala/Tuple2.apply().2#
+ scala/Tuple2.apply().2'
+ scala/Predef.println(+1).2!
+ scala/Option#map().2!
+ scala/Some.apply().2
+ scala/Some.2 
+ scala/Int#`+`(+4).2
+
+ local02
+
+ bengal/Functor#29
+ )+bengal/givens/option$package.optionFunctor.2'
+ scala/Predef.println(+1).2C
+ 5bengal/givens/option$package.given_Monad_Option#ap().2!
+ scala/Some.apply().2
+ scala/Some.2 
+ scala/Int#`+`(+4).2
+ 
+scala/Int#2!
+& &scala/Some.apply().2
+" &scala/Some.2'
+ scala/Predef.println(+1).2)
+ bengal/Applicative#`<*>`().2!
+ scala/Some.apply().2
+ scala/Some.2 
+ scala/Int#`+`(+4).2
+ 
+scala/Int#2!
+' 'scala/Some.apply().2
+# 'scala/Some.2'
+ scala/Predef.println(+1).2C
+ 5bengal/givens/option$package.given_Monad_Option#ap().2!
+ scala/Some.apply().2
+ scala/Some.2 
+ scala/Int#`+`(+4).2
+ 
+scala/Int#2
+" &scala/None.2'
+   scala/Predef.println(+1).2(
+   bengal/Foldable#foldMap().2!
+   scala/Some.apply().2
+   scala/Some.2 
+    scala/Int#`+`(+4).29
+ "  "+bengal/givens/int$package.given_Monoid_Int.2'
+!! scala/Predef.println(+1).2E
+!! 7bengal/givens/list$package.given_Foldable_List.foldR().27
+!! )scala/collection/IterableFactory#apply().2!
+!! scala/package.List.2 
+!%! &scala/Int#`+`(+4).PZ 12B88AEE4983D2F8B83BF0C5F3891466

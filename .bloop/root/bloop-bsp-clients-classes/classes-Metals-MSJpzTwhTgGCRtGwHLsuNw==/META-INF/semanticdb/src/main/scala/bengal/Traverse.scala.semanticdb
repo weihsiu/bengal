@@ -1,0 +1,62 @@
+
+ª$src/main/scala/bengal/Traverse.scala*!
+bengal/Traverse#*Traverse€*-
+bengal/Traverse#`<init>`(). €@*<init>€*
+bengal/Traverse#[F]	*F€*.
+bengal/Traverse#traverse(). *traverse€*(
+bengal/Traverse#traverse().[A]	*A€*(
+bengal/Traverse#traverse().(x)*x€*(
+bengal/Traverse#traverse().[G]	*G€*(
+bengal/Traverse#traverse().[B]	*B€*(
+bengal/Traverse#traverse().(f)*f€*,
+bengal/Traverse#traverse().(AP)  *AP€*,
+bengal/Traverse#sequence().*sequence€*(
+bengal/Traverse#sequence().[G]	*G€*(
+bengal/Traverse#sequence().[A]	*A€*(
+bengal/Traverse#sequence().(x)*x€*.
+ bengal/Traverse#sequence().(x$2)  *x$2€*
+local0*x€*#
+bengal/Traverse.
+ *Traverse€2
+ bengal/2
+ bengal/Traverse#2)
+ bengal/Traverse#`<init>`().2
+ $bengal/Functor#2!
+% &bengal/Traverse#[F]2
+- 5bengal/Foldable#2!
+6 7bengal/Traverse#[F]2!
+ bengal/Traverse#[F]2)
+ bengal/Traverse#traverse().2,
+ bengal/Traverse#traverse().[A]2,
+ bengal/Traverse#traverse().(x)2!
+ bengal/Traverse#[F]2,
+ bengal/Traverse#traverse().[A]2,
+ bengal/Traverse#traverse().[G]2,
+ bengal/Traverse#traverse().[B]2,
+ bengal/Traverse#traverse().(f)2,
+  bengal/Traverse#traverse().[A]2,
+$ %bengal/Traverse#traverse().[G]2,
+& 'bengal/Traverse#traverse().[B]2-
+0 2bengal/Traverse#traverse().(AP)2!
+4 ?bengal/Applicative#2,
+@ Abengal/Traverse#traverse().[G]2,
+E Fbengal/Traverse#traverse().[G]2!
+G Hbengal/Traverse#[F]2,
+I Jbengal/Traverse#traverse().[B]2)
+ bengal/Traverse#sequence().2,
+ bengal/Traverse#sequence().[G]2,
+ bengal/Traverse#sequence().[A]2,
+ bengal/Traverse#sequence().(x)2!
+ bengal/Traverse#[F]2,
+ bengal/Traverse#sequence().[G]2,
+ bengal/Traverse#sequence().[A]2,
+( )bengal/Traverse#sequence().[G]2!
+* +bengal/Traverse#[F]2,
+, -bengal/Traverse#sequence().[A]2)
+2 2bengal/Traverse#traverse().2,
+2 3bengal/Traverse#sequence().(x)2&
+= Escala/Predef.identity().2
+= =local02.
+E E bengal/Traverse#sequence().(x$2)2
+ bengal/Traverse.2
+ bengal/TCApply#PZ 1FF8898B229BACA49CE109A244A86364

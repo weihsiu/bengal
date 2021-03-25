@@ -1,7 +1,7 @@
 package bengal
 
-trait Ord[A] {
+trait Ord[A]:
   def compare(x: A, y: A): Int
-  def (x: A) < (y: A) = compare(x, y) < 0
-  def (x: A) > (y: A) = compare(x, y) > 0
-}
+  extension (x: A)
+    def <(y: A) = compare(x, y) < 0
+    def >(y: A) = compare(x, y) > 0

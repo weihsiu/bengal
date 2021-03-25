@@ -1,0 +1,38 @@
+
+Ò
+"src/main/scala/bengal/bengal.scala*
+bengal/CApply#*CApply€*+
+bengal/CApply#`<init>`(). €@*<init>€*
+bengal/CApply#[C]	*C€*$
+bengal/CApply#apply().*apply€*#
+bengal/CApply#apply().[A]	*A€*
+bengal/TCApply#*TCApply€*,
+bengal/TCApply#`<init>`(). €@*<init>€*
+bengal/TCApply#[TC]	*TC€*%
+bengal/TCApply#apply().*apply€*$
+bengal/TCApply#apply().[F]	*F€2
+ bengal/2
+ bengal/CApply#2'
+ bengal/CApply#`<init>`().2
+ bengal/CApply#[C]2$
+ bengal/CApply#apply().2'
+ bengal/CApply#apply().[A]2
+ bengal/CApply#[C]2'
+ bengal/CApply#apply().[A]2
+ bengal/CApply#[C]2'
+ bengal/CApply#apply().[A]2$
+  scala/Predef.summon().2
+! "bengal/CApply#[C]2'
+# $bengal/CApply#apply().[A]2
+ bengal/TCApply#2(
+ bengal/TCApply#`<init>`().2!
+ bengal/TCApply#[TC]2%
+ bengal/TCApply#apply().2(
+ bengal/TCApply#apply().[F]2!
+ bengal/TCApply#[TC]2(
+ bengal/TCApply#apply().[F]2!
+ bengal/TCApply#[TC]2(
+ bengal/TCApply#apply().[F]2$
+ %scala/Predef.summon().2!
+& (bengal/TCApply#[TC]2(
+) *bengal/TCApply#apply().[F]PZ 8307B139FAE318EE88FB3E8294C21BA5

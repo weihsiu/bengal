@@ -1,0 +1,46 @@
+
+Ö
+src/main/scala/bengal/Ord.scala*
+bengal/Ord#*Ord€*(
+bengal/Ord#`<init>`(). €@*<init>€*
+bengal/Ord#[A]	*A€*'
+bengal/Ord#compare(). *compare€*"
+bengal/Ord#compare().(x)*x€*"
+bengal/Ord#compare().(y)*y€*
+bengal/Ord#`<`().*<€*
+bengal/Ord#`<`().(x)*x€*
+bengal/Ord#`<`().(y)*y€*
+bengal/Ord#`>`().*>€*
+bengal/Ord#`>`().(x)*x€*
+bengal/Ord#`>`().(y)*y€2
+ bengal/2
+ 	bengal/Ord#2$
+	 	bengal/Ord#`<init>`().2
+
+ bengal/Ord#[A]2#
+ bengal/Ord#compare().2&
+ bengal/Ord#compare().(x)2
+ bengal/Ord#[A]2&
+ bengal/Ord#compare().(y)2
+ bengal/Ord#[A]2
+ 
+scala/Int#2
+ 	bengal/Ord#`<`().2"
+ bengal/Ord#`<`().(x)2
+ bengal/Ord#[A]2"
+
+ bengal/Ord#`<`().(y)2
+ bengal/Ord#[A]2 
+  !scala/Int#`<`(+3).2#
+ bengal/Ord#compare().2"
+ bengal/Ord#`<`().(x)2"
+ bengal/Ord#`<`().(y)2
+ 	bengal/Ord#`>`().2"
+ bengal/Ord#`>`().(x)2"
+
+ bengal/Ord#`>`().(y)2
+ bengal/Ord#[A]2 
+  !scala/Int#`>`(+3).2#
+ bengal/Ord#compare().2"
+ bengal/Ord#`>`().(x)2"
+ bengal/Ord#`>`().(y)PZ 5DB0EF630A4D589E4C8AF74F47313E7B

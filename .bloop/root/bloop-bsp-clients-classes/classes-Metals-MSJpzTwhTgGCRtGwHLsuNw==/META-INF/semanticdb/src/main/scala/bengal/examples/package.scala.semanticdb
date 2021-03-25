@@ -1,0 +1,31 @@
+
+ÿ
+,src/main/scala/bengal/examples/package.scala*3
+ bengal/examples/package$package. *examples€*2
+%bengal/examples/package$package.Path#*Path€*C
+,bengal/examples/package$package.defaultPath. €*defaultPath€*_
+;bengal/examples/package$package.theCauseOfThatElusiveBug(). €*theCauseOfThatElusiveBug€*e
+?bengal/examples/package$package.`theCauseOfThatElusiveBug_=`(). €*theCauseOfThatElusiveBug_=€*P
+Dbengal/examples/package$package.`theCauseOfThatElusiveBug_=`().(x$1)*x$1€*2
+&bengal/examples/package$package.add().*add€*3
+)bengal/examples/package$package.add().(x)*x€*3
+)bengal/examples/package$package.add().(y)*y€2
+ bengal/examples/2
+ bengal/2*
+ bengal/examples/package$package.23
+ 	%bengal/examples/package$package.Path#2"
+ scala/Predef.String#2:
+ ,bengal/examples/package$package.defaultPath.2I
+ ;bengal/examples/package$package.theCauseOfThatElusiveBug().24
+ &bengal/examples/package$package.add().27
+ 	)bengal/examples/package$package.add().(x)2
+ 
+scala/Int#27
+ )bengal/examples/package$package.add().(y)2
+ 
+scala/Int#2
+ 
+scala/Int#2 
+! "scala/Int#`+`(+4).27
+  )bengal/examples/package$package.add().(x)27
+# $)bengal/examples/package$package.add().(y)PZ 8DE1A788888D2AE155A02924FABD7CA1

@@ -1,0 +1,96 @@
+
+ˆ$src/main/scala/bengal/Foldable.scala*!
+bengal/Foldable#*Foldable€*-
+bengal/Foldable#`<init>`(). €@*<init>€*
+bengal/Foldable#[F]	*F€*(
+bengal/Foldable#foldL(). *foldL€*%
+bengal/Foldable#foldL().[A]	*A€*%
+bengal/Foldable#foldL().(x)*x€*%
+bengal/Foldable#foldL().[B]	*B€*%
+bengal/Foldable#foldL().(z)*z€*%
+bengal/Foldable#foldL().(f)*f€*(
+bengal/Foldable#foldR(). *foldR€*%
+bengal/Foldable#foldR().[A]	*A€*%
+bengal/Foldable#foldR().(x)*x€*%
+bengal/Foldable#foldR().[B]	*B€*%
+bengal/Foldable#foldR().(z)*z€*%
+bengal/Foldable#foldR().(f)*f€**
+bengal/Foldable#foldMap().*foldMap€*'
+bengal/Foldable#foldMap().[A]	*A€*'
+bengal/Foldable#foldMap().(x)*x€*'
+bengal/Foldable#foldMap().[B]	*B€*'
+bengal/Foldable#foldMap().(f)*f€*+
+bengal/Foldable#foldMap().(MB)  *MB€*
+local0*a€*
+local1*x€*$
+bengal/Foldable#fold().*fold€*$
+bengal/Foldable#fold().[A]	*A€*$
+bengal/Foldable#fold().(x)*x€**
+bengal/Foldable#fold().(x$2)  *x$2€*
+local2*x€*#
+bengal/Foldable.
+ *Foldable€2
+ bengal/2
+ bengal/Foldable#2)
+ bengal/Foldable#`<init>`().2!
+ bengal/Foldable#[F]2&
+ bengal/Foldable#foldL().2)
+ bengal/Foldable#foldL().[A]2)
+ bengal/Foldable#foldL().(x)2!
+ bengal/Foldable#[F]2)
+ bengal/Foldable#foldL().[A]2)
+ bengal/Foldable#foldL().[B]2)
+ bengal/Foldable#foldL().(z)2)
+ bengal/Foldable#foldL().[B]2)
+ bengal/Foldable#foldL().(f)2)
+ bengal/Foldable#foldL().[B]2)
+ bengal/Foldable#foldL().[A]2)
+$ %bengal/Foldable#foldL().[B]2)
+( )bengal/Foldable#foldL().[B]2&
+ bengal/Foldable#foldR().2)
+ bengal/Foldable#foldR().[A]2)
+ bengal/Foldable#foldR().(x)2)
+ bengal/Foldable#foldR().[A]2)
+ bengal/Foldable#foldR().[B]2)
+ bengal/Foldable#foldR().(z)2)
+ bengal/Foldable#foldR().[B]2)
+ bengal/Foldable#foldR().(f)2)
+ bengal/Foldable#foldR().[A]2)
+ bengal/Foldable#foldR().[B]2)
+$ %bengal/Foldable#foldR().[B]2)
+( )bengal/Foldable#foldR().[B]2(
+ bengal/Foldable#foldMap().2+
+ bengal/Foldable#foldMap().[A]2+
+ bengal/Foldable#foldMap().(x)2+
+ bengal/Foldable#foldMap().[A]2+
+ bengal/Foldable#foldMap().[B]2+
+ bengal/Foldable#foldMap().(f)2+
+ bengal/Foldable#foldMap().[A]2+
+ bengal/Foldable#foldMap().[B]2,
+$ &bengal/Foldable#foldMap().(MB)2
+( .bengal/Monoid#2+
+/ 0bengal/Foldable#foldMap().[B]2+
+4 5bengal/Foldable#foldMap().[B]2&
+8 8bengal/Foldable#foldL().2+
+8 9bengal/Foldable#foldMap().(x)2$
+C Hbengal/Monoid#empty().2,
+@ Bbengal/Foldable#foldMap().(MB)2
+K Llocal02
+N Olocal12&
+T Tbengal/Monoid#combine().2
+T Ulocal02&
+_ _scala/Function1#apply().2+
+^ _bengal/Foldable#foldMap().(f)2
+` alocal12%
+ bengal/Foldable#fold().2(
+ bengal/Foldable#fold().[A]2(
+ bengal/Foldable#fold().(x)2(
+ bengal/Foldable#fold().[A]2(
+  bengal/Foldable#fold().[A]2(
+# #bengal/Foldable#foldMap().2(
+# $bengal/Foldable#fold().(x)2&
+- 5scala/Predef.identity().2
+- -local22*
+6 6bengal/Foldable#fold().(x$2)2
+		 bengal/Foldable.2
+		 bengal/TCApply#PZ 916349E23572BAB630D94334EA78AD94

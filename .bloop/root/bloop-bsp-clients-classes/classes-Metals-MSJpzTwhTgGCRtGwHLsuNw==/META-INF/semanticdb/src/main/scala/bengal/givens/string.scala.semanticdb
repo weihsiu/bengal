@@ -1,0 +1,28 @@
+
+œ)src/main/scala/bengal/givens/string.scala*.
+bengal/givens/string$package. *givens€*O
+1bengal/givens/string$package.given_Monoid_String.
+ (*given_Monoid_String€*H
+7bengal/givens/string$package.given_Monoid_String.empty. €*empty€*K
+;bengal/givens/string$package.given_Monoid_String.combine().*combine€*H
+>bengal/givens/string$package.given_Monoid_String.combine().(x)*x€*H
+>bengal/givens/string$package.given_Monoid_String.combine().(y)*y€2
+ bengal/givens/2
+ bengal/2
+ bengal/Monoid.2
+ bengal/Monoid#2
+ bengal/2'
+bengal/givens/string$package.2?
+ 1bengal/givens/string$package.given_Monoid_String.2
+ bengal/Monoid#2"
+ scala/Predef.String#2E
+ 7bengal/givens/string$package.given_Monoid_String.empty.2I
+ ;bengal/givens/string$package.given_Monoid_String.combine().2L
+ >bengal/givens/string$package.given_Monoid_String.combine().(x)2"
+ scala/Predef.String#2L
+ >bengal/givens/string$package.given_Monoid_String.combine().(y)2"
+ scala/Predef.String#22
+ !$scala/collection/StringOps#`++`(+2).2+
+ scala/Predef.augmentString().2L
+ >bengal/givens/string$package.given_Monoid_String.combine().(x)2L
+" #>bengal/givens/string$package.given_Monoid_String.combine().(y)PZ 8CF36471DD46D979A43726F253B34D51

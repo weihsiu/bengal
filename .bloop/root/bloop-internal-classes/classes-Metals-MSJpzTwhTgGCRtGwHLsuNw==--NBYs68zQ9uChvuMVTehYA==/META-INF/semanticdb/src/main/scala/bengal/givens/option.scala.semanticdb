@@ -1,0 +1,343 @@
+
+ç›)src/main/scala/bengal/givens/option.scala*.
+bengal/givens/option$package. *givens€*M
+1bengal/givens/option$package.given_Monoid_Option#*given_Monoid_Option€*N
+<bengal/givens/option$package.given_Monoid_Option#`<init>`(). €@*<init>€*>
+4bengal/givens/option$package.given_Monoid_Option#[A]	*A€*H
+7bengal/givens/option$package.given_Monoid_Option#empty. €*empty€*K
+;bengal/givens/option$package.given_Monoid_Option#combine().*combine€*H
+>bengal/givens/option$package.given_Monoid_Option#combine().(x)*x€*H
+>bengal/givens/option$package.given_Monoid_Option#combine().(y)*y€*
+local0 €*x€*
+local1 €*y€*Q
+3bengal/givens/option$package.given_Monoid_Option(). (*given_Monoid_Option€*@
+6bengal/givens/option$package.given_Monoid_Option().[A]	*A€*T
+?bengal/givens/option$package.given_Monoid_Option().(evidence$1)  *
+evidence$1€*C
++bengal/givens/option$package.optionFunctor.
+ (*optionFunctor€*=
+1bengal/givens/option$package.optionFunctor.map().*map€*>
+4bengal/givens/option$package.optionFunctor.map().[A]	*A€*>
+4bengal/givens/option$package.optionFunctor.map().(x)*x€*>
+4bengal/givens/option$package.optionFunctor.map().[B]	*B€*>
+4bengal/givens/option$package.optionFunctor.map().(f)*f€*W
+6bengal/givens/option$package.given_Applicative_Option#*given_Applicative_Option€*S
+Abengal/givens/option$package.given_Applicative_Option#`<init>`(). €@*<init>€*Q
+Dbengal/givens/option$package.given_Applicative_Option#`<init>`().(F)  *F€*E
+8bengal/givens/option$package.given_Applicative_Option#F.  *F€*J
+<bengal/givens/option$package.given_Applicative_Option#map(). *map€*I
+?bengal/givens/option$package.given_Applicative_Option#map().[A]	*A€*I
+?bengal/givens/option$package.given_Applicative_Option#map().(x)*x€*I
+?bengal/givens/option$package.given_Applicative_Option#map().[B]	*B€*I
+?bengal/givens/option$package.given_Applicative_Option#map().(f)*f€*J
+=bengal/givens/option$package.given_Applicative_Option#pure().*pure€*J
+@bengal/givens/option$package.given_Applicative_Option#pure().[A]	*A€*J
+@bengal/givens/option$package.given_Applicative_Option#pure().(x)*x€*F
+;bengal/givens/option$package.given_Applicative_Option#ap().*ap€*H
+>bengal/givens/option$package.given_Applicative_Option#ap().[A]	*A€*H
+>bengal/givens/option$package.given_Applicative_Option#ap().[B]	*B€*H
+>bengal/givens/option$package.given_Applicative_Option#ap().(f)*f€*H
+>bengal/givens/option$package.given_Applicative_Option#ap().(x)*x€*
+local2 €*f€*
+local3 €*x€*[
+8bengal/givens/option$package.given_Applicative_Option(). (*given_Applicative_Option€*G
+;bengal/givens/option$package.given_Applicative_Option().(F)  *F€*K
+0bengal/givens/option$package.given_Monad_Option#*given_Monad_Option€*M
+;bengal/givens/option$package.given_Monad_Option#`<init>`(). €@*<init>€*K
+>bengal/givens/option$package.given_Monad_Option#`<init>`().(A)  *A€*?
+2bengal/givens/option$package.given_Monad_Option#A.  *A€*B
+5bengal/givens/option$package.given_Monad_Option#ap(). *ap€*B
+8bengal/givens/option$package.given_Monad_Option#ap().[A]	*A€*B
+8bengal/givens/option$package.given_Monad_Option#ap().[B]	*B€*B
+8bengal/givens/option$package.given_Monad_Option#ap().(f)*f€*B
+8bengal/givens/option$package.given_Monad_Option#ap().(x)*x€*D
+6bengal/givens/option$package.given_Monad_Option#map(). *map€*C
+9bengal/givens/option$package.given_Monad_Option#map().[A]	*A€*C
+9bengal/givens/option$package.given_Monad_Option#map().(x)*x€*C
+9bengal/givens/option$package.given_Monad_Option#map().[B]	*B€*C
+9bengal/givens/option$package.given_Monad_Option#map().(f)*f€*F
+7bengal/givens/option$package.given_Monad_Option#pure(). *pure€*D
+:bengal/givens/option$package.given_Monad_Option#pure().[A]	*A€*D
+:bengal/givens/option$package.given_Monad_Option#pure().(x)*x€*J
+:bengal/givens/option$package.given_Monad_Option#flatMap().*flatMap€*G
+=bengal/givens/option$package.given_Monad_Option#flatMap().[A]	*A€*G
+=bengal/givens/option$package.given_Monad_Option#flatMap().(x)*x€*G
+=bengal/givens/option$package.given_Monad_Option#flatMap().[B]	*B€*G
+=bengal/givens/option$package.given_Monad_Option#flatMap().(f)*f€*O
+2bengal/givens/option$package.given_Monad_Option(). (*given_Monad_Option€*A
+5bengal/givens/option$package.given_Monad_Option().(A)  *A€*S
+3bengal/givens/option$package.given_Foldable_Option.
+ (*given_Foldable_Option€*I
+;bengal/givens/option$package.given_Foldable_Option.foldL().*foldL€*H
+>bengal/givens/option$package.given_Foldable_Option.foldL().[A]	*A€*H
+>bengal/givens/option$package.given_Foldable_Option.foldL().(x)*x€*H
+>bengal/givens/option$package.given_Foldable_Option.foldL().[B]	*B€*H
+>bengal/givens/option$package.given_Foldable_Option.foldL().(z)*z€*H
+>bengal/givens/option$package.given_Foldable_Option.foldL().(f)*f€*I
+;bengal/givens/option$package.given_Foldable_Option.foldR().*foldR€*H
+>bengal/givens/option$package.given_Foldable_Option.foldR().[A]	*A€*H
+>bengal/givens/option$package.given_Foldable_Option.foldR().(x)*x€*H
+>bengal/givens/option$package.given_Foldable_Option.foldR().[B]	*B€*H
+>bengal/givens/option$package.given_Foldable_Option.foldR().(z)*z€*H
+>bengal/givens/option$package.given_Foldable_Option.foldR().(f)*f€*Q
+3bengal/givens/option$package.given_Traverse_Option#*given_Traverse_Option€*P
+>bengal/givens/option$package.given_Traverse_Option#`<init>`(). €@*<init>€*P
+Bbengal/givens/option$package.given_Traverse_Option#`<init>`().(FO)  *FO€*P
+Bbengal/givens/option$package.given_Traverse_Option#`<init>`().(FU)  *FU€*D
+6bengal/givens/option$package.given_Traverse_Option#FO.  *FO€*D
+6bengal/givens/option$package.given_Traverse_Option#FU.  *FU€*K
+;bengal/givens/option$package.given_Traverse_Option#foldL(). *foldL€*H
+>bengal/givens/option$package.given_Traverse_Option#foldL().[A]	*A€*H
+>bengal/givens/option$package.given_Traverse_Option#foldL().(x)*x€*H
+>bengal/givens/option$package.given_Traverse_Option#foldL().[B]	*B€*H
+>bengal/givens/option$package.given_Traverse_Option#foldL().(z)*z€*H
+>bengal/givens/option$package.given_Traverse_Option#foldL().(f)*f€*K
+;bengal/givens/option$package.given_Traverse_Option#foldR(). *foldR€*H
+>bengal/givens/option$package.given_Traverse_Option#foldR().[A]	*A€*H
+>bengal/givens/option$package.given_Traverse_Option#foldR().(x)*x€*H
+>bengal/givens/option$package.given_Traverse_Option#foldR().[B]	*B€*H
+>bengal/givens/option$package.given_Traverse_Option#foldR().(z)*z€*H
+>bengal/givens/option$package.given_Traverse_Option#foldR().(f)*f€*G
+9bengal/givens/option$package.given_Traverse_Option#map(). *map€*F
+<bengal/givens/option$package.given_Traverse_Option#map().[A]	*A€*F
+<bengal/givens/option$package.given_Traverse_Option#map().(x)*x€*F
+<bengal/givens/option$package.given_Traverse_Option#map().[B]	*B€*F
+<bengal/givens/option$package.given_Traverse_Option#map().(f)*f€*O
+>bengal/givens/option$package.given_Traverse_Option#traverse().*traverse€*K
+Abengal/givens/option$package.given_Traverse_Option#traverse().[A]	*A€*K
+Abengal/givens/option$package.given_Traverse_Option#traverse().(x)*x€*K
+Abengal/givens/option$package.given_Traverse_Option#traverse().[G]	*G€*K
+Abengal/givens/option$package.given_Traverse_Option#traverse().[B]	*B€*K
+Abengal/givens/option$package.given_Traverse_Option#traverse().(f)*f€*O
+Bbengal/givens/option$package.given_Traverse_Option#traverse().(AP)  *AP€*U
+5bengal/givens/option$package.given_Traverse_Option(). (*given_Traverse_Option€*F
+9bengal/givens/option$package.given_Traverse_Option().(FO)  *FO€*F
+9bengal/givens/option$package.given_Traverse_Option().(FU)  *FU€2
+ bengal/givens/2
+ bengal/2
+ bengal/2'
+bengal/givens/option$package.2J
+ <bengal/givens/option$package.given_Monoid_Option#`<init>`().2
+
+ bengal/Monoid#2B
+ 4bengal/givens/option$package.given_Monoid_Option#[A]2
+ bengal/Monoid#2
+  scala/Option#2B
+! "4bengal/givens/option$package.given_Monoid_Option#[A]2B
+ 4bengal/givens/option$package.given_Monoid_Option#[A]2E
+ 7bengal/givens/option$package.given_Monoid_Option#empty.2
+ scala/None.2I
+ ;bengal/givens/option$package.given_Monoid_Option#combine().2L
+ >bengal/givens/option$package.given_Monoid_Option#combine().(x)2
+ scala/Option#2B
+ 4bengal/givens/option$package.given_Monoid_Option#[A]2L
+ >bengal/givens/option$package.given_Monoid_Option#combine().(y)2
+ scala/Option#2B
+ 4bengal/givens/option$package.given_Monoid_Option#[A]2#
+" "scala/Tuple2.apply().2L
+" #>bengal/givens/option$package.given_Monoid_Option#combine().(x)2L
+% &>bengal/givens/option$package.given_Monoid_Option#combine().(y)2%
+ scala/Tuple2.unapply().2#
+ scala/Some.unapply().2
+ scala/Some.2
+ local02#
+ scala/Some.unapply().2
+ scala/Some.2
+ local12!
+% %scala/Some.apply().2
+! %scala/Some.2
+& 'local02
+, -local12
+		 scala/None.29
+ +bengal/givens/option$package.optionFunctor.2
+ bengal/Functor#2?
+ 1bengal/givens/option$package.optionFunctor.map().2B
+ 4bengal/givens/option$package.optionFunctor.map().[A]2B
+ 4bengal/givens/option$package.optionFunctor.map().(x)2
+ scala/Option#2B
+ 4bengal/givens/option$package.optionFunctor.map().[A]2B
+ 4bengal/givens/option$package.optionFunctor.map().[B]2B
+ 4bengal/givens/option$package.optionFunctor.map().(f)2B
+ 4bengal/givens/option$package.optionFunctor.map().[A]2B
+ 4bengal/givens/option$package.optionFunctor.map().[B]2!
+ !scala/Option#map().2B
+ 4bengal/givens/option$package.optionFunctor.map().(x)2B
+" #4bengal/givens/option$package.optionFunctor.map().(f)2O
+ Abengal/givens/option$package.given_Applicative_Option#`<init>`().2
+ bengal/Functor#2!
+" -bengal/Applicative#2F
+ 8bengal/givens/option$package.given_Applicative_Option#F.2F
+	 
+8bengal/givens/option$package.given_Applicative_Option#F.2J
+ <bengal/givens/option$package.given_Applicative_Option#map().2#
+
+ 
+bengal/Functor#map().2M
+
+ 
+?bengal/givens/option$package.given_Applicative_Option#map().(x)2M
+
+ 
+?bengal/givens/option$package.given_Applicative_Option#map().(f)2K
+ 
+=bengal/givens/option$package.given_Applicative_Option#pure().2N
+ @bengal/givens/option$package.given_Applicative_Option#pure().[A]2N
+ @bengal/givens/option$package.given_Applicative_Option#pure().(x)2N
+ @bengal/givens/option$package.given_Applicative_Option#pure().[A]2!
+ scala/Some.apply().2
+ scala/Some.2N
+ @bengal/givens/option$package.given_Applicative_Option#pure().(x)2I
+ 
+;bengal/givens/option$package.given_Applicative_Option#ap().2L
+ >bengal/givens/option$package.given_Applicative_Option#ap().[A]2L
+ >bengal/givens/option$package.given_Applicative_Option#ap().[B]2L
+ >bengal/givens/option$package.given_Applicative_Option#ap().(f)2
+ scala/Option#2L
+ >bengal/givens/option$package.given_Applicative_Option#ap().[A]2L
+" #>bengal/givens/option$package.given_Applicative_Option#ap().[B]2L
+ >bengal/givens/option$package.given_Applicative_Option#ap().(x)2
+ scala/Option#2L
+ >bengal/givens/option$package.given_Applicative_Option#ap().[A]2#
+ scala/Tuple2.apply().2L
+ >bengal/givens/option$package.given_Applicative_Option#ap().(f)2L
+  >bengal/givens/option$package.given_Applicative_Option#ap().(x)2%
+ scala/Tuple2.unapply().2#
+ scala/Some.unapply().2
+ scala/Some.2
+ local22#
+ scala/Some.unapply().2
+ scala/Some.2
+ local32!
+% %scala/Some.apply().2
+! %scala/Some.2&
+' 'scala/Function1#apply().2
+& 'local22
+( )local32
+ scala/None.2I
+ ;bengal/givens/option$package.given_Monad_Option#`<init>`().2!
+ bengal/Applicative#2
+& +bengal/Monad#2@
+ 2bengal/givens/option$package.given_Monad_Option#A.2@
+	 
+2bengal/givens/option$package.given_Monad_Option#A.2C
+ 5bengal/givens/option$package.given_Monad_Option#ap().2&
+
+ 
+bengal/Applicative#ap().2F
+
+ 
+8bengal/givens/option$package.given_Monad_Option#ap().(f)2F
+
+ 
+8bengal/givens/option$package.given_Monad_Option#ap().(x)2D
+ 6bengal/givens/option$package.given_Monad_Option#map().2#
+
+ 
+bengal/Functor#map().2G
+
+ 
+9bengal/givens/option$package.given_Monad_Option#map().(x)2G
+
+ 
+9bengal/givens/option$package.given_Monad_Option#map().(f)2E
+ 7bengal/givens/option$package.given_Monad_Option#pure().2(
+
+ 
+bengal/Applicative#pure().2H
+
+ 
+:bengal/givens/option$package.given_Monad_Option#pure().(x)2H
+ :bengal/givens/option$package.given_Monad_Option#flatMap().2K
+ =bengal/givens/option$package.given_Monad_Option#flatMap().[A]2K
+ =bengal/givens/option$package.given_Monad_Option#flatMap().(x)2
+ scala/Option#2K
+ =bengal/givens/option$package.given_Monad_Option#flatMap().[A]2K
+ =bengal/givens/option$package.given_Monad_Option#flatMap().[B]2K
+ =bengal/givens/option$package.given_Monad_Option#flatMap().(f)2K
+ =bengal/givens/option$package.given_Monad_Option#flatMap().[A]2
+ !scala/Option#2K
+" #=bengal/givens/option$package.given_Monad_Option#flatMap().[B]2%
+* 1scala/Option#flatMap().2K
+( )=bengal/givens/option$package.given_Monad_Option#flatMap().(x)2K
+2 3=bengal/givens/option$package.given_Monad_Option#flatMap().(f)2A
+ 3bengal/givens/option$package.given_Foldable_Option.2
+ bengal/Foldable#2I
+ ;bengal/givens/option$package.given_Foldable_Option.foldL().2L
+ >bengal/givens/option$package.given_Foldable_Option.foldL().[A]2L
+ >bengal/givens/option$package.given_Foldable_Option.foldL().(x)2
+ scala/Option#2L
+ >bengal/givens/option$package.given_Foldable_Option.foldL().[A]2L
+ >bengal/givens/option$package.given_Foldable_Option.foldL().[B]2L
+ >bengal/givens/option$package.given_Foldable_Option.foldL().(z)2L
+ >bengal/givens/option$package.given_Foldable_Option.foldL().[B]2L
+ >bengal/givens/option$package.given_Foldable_Option.foldL().(f)2L
+ >bengal/givens/option$package.given_Foldable_Option.foldL().[B]2L
+ >bengal/givens/option$package.given_Foldable_Option.foldL().[A]2L
+$ %>bengal/givens/option$package.given_Foldable_Option.foldL().[B]2:
++ 3,scala/collection/IterableOnceOps#foldLeft().2-
+) )scala/Option.option2Iterable().2L
+) *>bengal/givens/option$package.given_Foldable_Option.foldL().(x)2L
+4 5>bengal/givens/option$package.given_Foldable_Option.foldL().(z)2L
+7 8>bengal/givens/option$package.given_Foldable_Option.foldL().(f)2I
+ ;bengal/givens/option$package.given_Foldable_Option.foldR().2L
+ >bengal/givens/option$package.given_Foldable_Option.foldR().[A]2L
+ >bengal/givens/option$package.given_Foldable_Option.foldR().(x)2L
+ >bengal/givens/option$package.given_Foldable_Option.foldR().[A]2L
+ >bengal/givens/option$package.given_Foldable_Option.foldR().[B]2L
+ >bengal/givens/option$package.given_Foldable_Option.foldR().(z)2L
+ >bengal/givens/option$package.given_Foldable_Option.foldR().[B]2L
+ >bengal/givens/option$package.given_Foldable_Option.foldR().(f)2L
+ >bengal/givens/option$package.given_Foldable_Option.foldR().[A]2L
+ >bengal/givens/option$package.given_Foldable_Option.foldR().[B]2L
+$ %>bengal/givens/option$package.given_Foldable_Option.foldR().[B]2;
++ 4-scala/collection/IterableOnceOps#foldRight().2-
+) )scala/Option.option2Iterable().2L
+) *>bengal/givens/option$package.given_Foldable_Option.foldR().(x)2L
+5 6>bengal/givens/option$package.given_Foldable_Option.foldR().(z)2L
+8 9>bengal/givens/option$package.given_Foldable_Option.foldR().(f)2L
+!! >bengal/givens/option$package.given_Traverse_Option#`<init>`().2
+!! bengal/Foldable#2
+!'! .bengal/Functor#2
+!9! Abengal/Traverse#2D
+!! 6bengal/givens/option$package.given_Traverse_Option#FO.2D
+!#! %6bengal/givens/option$package.given_Traverse_Option#FU.2D
+"	" 6bengal/givens/option$package.given_Traverse_Option#FO.2I
+"" ;bengal/givens/option$package.given_Traverse_Option#foldL().2&
+"" bengal/Foldable#foldL().2L
+"" >bengal/givens/option$package.given_Traverse_Option#foldL().(x)2L
+"" >bengal/givens/option$package.given_Traverse_Option#foldL().(z)2L
+"" >bengal/givens/option$package.given_Traverse_Option#foldL().(f)2I
+"" ;bengal/givens/option$package.given_Traverse_Option#foldR().2&
+"" bengal/Foldable#foldR().2L
+"" >bengal/givens/option$package.given_Traverse_Option#foldR().(x)2L
+"" >bengal/givens/option$package.given_Traverse_Option#foldR().(z)2L
+"" >bengal/givens/option$package.given_Traverse_Option#foldR().(f)2D
+"" 6bengal/givens/option$package.given_Traverse_Option#FU.2G
+"" 9bengal/givens/option$package.given_Traverse_Option#map().2#
+"" bengal/Functor#map().2J
+"" <bengal/givens/option$package.given_Traverse_Option#map().(x)2J
+"" <bengal/givens/option$package.given_Traverse_Option#map().(f)2L
+$$ >bengal/givens/option$package.given_Traverse_Option#traverse().2O
+## Abengal/givens/option$package.given_Traverse_Option#traverse().[A]2O
+## Abengal/givens/option$package.given_Traverse_Option#traverse().(x)2
+## scala/Option#2O
+## Abengal/givens/option$package.given_Traverse_Option#traverse().[A]2O
+$$ Abengal/givens/option$package.given_Traverse_Option#traverse().[G]2O
+$$ Abengal/givens/option$package.given_Traverse_Option#traverse().[B]2O
+$$ Abengal/givens/option$package.given_Traverse_Option#traverse().(f)2O
+$$ Abengal/givens/option$package.given_Traverse_Option#traverse().[A]2O
+$"$ #Abengal/givens/option$package.given_Traverse_Option#traverse().[G]2O
+$$$ %Abengal/givens/option$package.given_Traverse_Option#traverse().[B]2P
+$.$ 0Bbengal/givens/option$package.given_Traverse_Option#traverse().(AP)2!
+$2$ =bengal/Applicative#2O
+$>$ ?Abengal/givens/option$package.given_Traverse_Option#traverse().[G]2"
+%% scala/Option#fold().2O
+%% Abengal/givens/option$package.given_Traverse_Option#traverse().(x)2(
+%% bengal/Applicative#pure().2P
+%% Bbengal/givens/option$package.given_Traverse_Option#traverse().(AP)2
+%% scala/None.2#
+%% bengal/Functor#map().2&
+%% scala/Function1#apply().2O
+%% Abengal/givens/option$package.given_Traverse_Option#traverse().(f)2!
+%)% )scala/Some.apply().2
+%%% )scala/Some.PZ C38D0BF256E4237C37E135A8E601DDB2

@@ -1,0 +1,36 @@
+
+÷	"src/main/scala/bengal/Monoid.scala*
+bengal/Monoid#*Monoid€*+
+bengal/Monoid#`<init>`(). €@*<init>€*
+bengal/Monoid#[A]	*A€*&
+bengal/Monoid#empty(). *empty€**
+bengal/Monoid#combine(). *combine€*%
+bengal/Monoid#combine().(x)*x€*%
+bengal/Monoid#combine().(y)*y€*"
+bengal/Monoid#`|+|`().*|+|€*#
+bengal/Monoid#`|+|`().(x)*x€*#
+bengal/Monoid#`|+|`().(y)*y€*
+bengal/Monoid.
+ *Monoid€2
+ bengal/2
+ bengal/Monoid#2'
+ bengal/Monoid#`<init>`().2
+ bengal/Monoid#[A]2$
+ bengal/Monoid#empty().2
+ bengal/Monoid#[A]2&
+ bengal/Monoid#combine().2)
+ bengal/Monoid#combine().(x)2
+ bengal/Monoid#[A]2)
+ bengal/Monoid#combine().(y)2
+ bengal/Monoid#[A]2
+ bengal/Monoid#[A]2$
+ bengal/Monoid#`|+|`().2'
+ bengal/Monoid#`|+|`().(x)2'
+ bengal/Monoid#`|+|`().(y)2
+ bengal/Monoid#[A]2
+ bengal/Monoid#[A]2&
+ bengal/Monoid#combine().2'
+ bengal/Monoid#`|+|`().(x)2'
+! "bengal/Monoid#`|+|`().(y)2
+ bengal/Monoid.2
+ bengal/CApply#PZ E76B7378EFC09037B589F8348241DFE7

@@ -1,9 +1,8 @@
 package bengal.data
 
-import bengal._
-import scala.Eql
+import bengal.*
 
-enum Maybe[+A] derives Eql, Functor  {
+enum Maybe[+A]  {
   case Just(x: A)
   case Empty
 }
