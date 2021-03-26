@@ -2,6 +2,10 @@ package bengal.givens
 
 import bengal.*
 
+given listOrd[A: Ord]: Ord[List[A]] with
+  def compare(xs: List[A], ys: List[A]) =
+    xs.zip(ys).map(Ord[A].compare).dropWhile(_ == 0).headOption.getOrElse(0)
+    
 given listMonoid[A]: Monoid[List[A]] with
   val empty = Nil
   extension (x: List[A])

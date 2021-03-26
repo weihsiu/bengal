@@ -5,3 +5,5 @@ trait Ord[A]:
   extension (x: A)
     def <(y: A) = compare(x, y) < 0
     def >(y: A) = compare(x, y) > 0
+
+object Ord extends CApply[Ord]
