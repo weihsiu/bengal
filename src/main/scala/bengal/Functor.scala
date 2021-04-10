@@ -21,11 +21,12 @@ object Functor extends TCApply[Functor]:
     else
       new Functor[T]:
         extension [A](x: T[A])
-          def map[B](f: A => B): T[B] = p.fromProduct(new Product:
-            val productArity = 1
-            def productElement(n: Int): Any =
-              elems.head.map(x)(f)
-          )
+          def map[B](f: A => B): T[B] = ???
+            // p.fromProduct(new Product:
+            //   val productArity = 1
+            //   def productElement(n: Int): Any = 
+            //     elems.head.map(x)(f)
+            // )
 
   inline given derived[T[_], A](using m: Mirror.Of[T[A]]): Functor[T] =
     lazy val elemInstances = summonAll[m.MirroredElemTypes].toList.map(_.asInstanceOf[Functor[_]])
